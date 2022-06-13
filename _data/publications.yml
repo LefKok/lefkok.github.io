@@ -2,6 +2,7 @@
 -
   title: 'Jolteon and Ditto: Network-Adaptive Efficient Consensus with Asynchronous Fallback (Alphabetical)'  
   authors: rati-lefkok-alberto-sasha-daniel
+  venue: fc2022
   url: https://sonnino.com/papers/jolteon-and-ditto.pdf
   meta:
   -
@@ -11,7 +12,8 @@
       icon: ★
 -
   title: 'Be Aware of Your Leaders (Alphabetical)'  
-  authors: shir-rati-lefkok-zekun-dahlia-alberto-sasha
+  authors: shir-rati-lefkok-zekun-malkhi-alberto-sasha
+  venue: fc2022
   url: https://sonnino.com/papers/leader-reputation.pdf
   meta:
   -
@@ -22,6 +24,7 @@
 -
   title: 'Narwhal and Tusk: A DAG-based Mempool and Efficient BFT Consensus (Alphabetical)'  
   authors: george-lefkok-alberto-sasha
+  venue: eurosys2022
   url: https://arxiv.org/abs/2102.08325
   meta:
   -
@@ -45,12 +48,6 @@
   authors: idit-lefkok-oded-sasha
   venue: podc2021
   url: https://arxiv.org/abs/2102.08325
-  meta:
--
-  title: 'Brief Announcement: Be Prepared When Network Goes Bad: An Asynchronous View-Change Protocol (Alphabetical)'  
-  authors: rati-lefkok-sasha-daniel
-  venue: podc2021
-  url: https://arxiv.org/abs/2103.03181
   meta:
 -
   title: 'CALYPSO: Private Data Management for Decentralized Ledgers'
@@ -80,17 +77,6 @@
   authors: zamyatin-musalbas-zindros-lefkok-morenosanchez-kiayias-knottenbelt
   venue: fc2021
   url: https://eprint.iacr.org/2019/1128
--
-  title: 'KELP: Reactive Key-Loss Protection in Blockchains (Alphabetical)'  
-  authors: sam-kostas-panagiotis-riyaz-irakliy-lefkok-joshua-david-tim
-  venue: fcw2021
-  url: https://eprint.iacr.org/2021/289.pdf
-  meta:
-  -
-      content: Used by Celo
-      url: https://medium.com/celoorg/celo-sets-sights-on-becoming-fastest-evm-chain-through-collaboration-with-mysten-labs-e88b426aee83 
-      color: brown
-      icon: ★
 -
   title: 'Asynchronous Distributed Key Generation for Computationally- Secure Randomness, Consensus, and Threshold Signatures.'
   authors: lefkok-malkhi-sasha

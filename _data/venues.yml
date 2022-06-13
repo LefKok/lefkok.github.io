@@ -68,4 +68,14 @@ podc2021:
   year: 2021
   name: ACM Symposium on Principles of Distributed Computing
   url: https://www.podc.org/podc2021/
+fc2022:
+  slug: FC
+  year: 2022
+  name: 26th International Conference on Financial Cryptography and Data Security 2022
+  url: https://fc22.ifca.ai/
+eurosys2022:
+  slug: EuroSys
+  year: 2022
+  name: 17th European Conference on Computer Systems
+  url: https://2022.eurosys.org/
 
