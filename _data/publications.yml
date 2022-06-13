@@ -1,5 +1,31 @@
 ---
 -
+  title: 'Bullshark: DAG BFT Protocols Made Practical'  
+  authors: sasha-neil-alberto-lefkok
+  venue: ccs2022
+  url: https://arxiv.org/pdf/2201.05677
+-
+  title: 'Narwhal and Tusk: A DAG-based Mempool and Efficient BFT Consensus (Alphabetical)'  
+  authors: george-lefkok-alberto-sasha
+  venue: eurosys2022
+  url: https://arxiv.org/abs/2102.08325
+  meta:
+  -
+      content: Used by Celo
+      url: https://medium.com/celoorg/celo-sets-sights-on-becoming-fastest-evm-chain-through-collaboration-with-mysten-labs-e88b426aee83 
+      color: brown
+      icon: ★
+  -
+      content: Used by Sommelier
+      url: https://sommelier.finance/blog/sommelier-partners-with-mysten-labs-to-make-sommelier-and-all-cosmos-blockchains-the-fastest-protocols-on-the-planet
+      color: brown
+      icon: ★
+-
+  title: 'Practical Asynchronous Distributed Key Generation'
+  authors: das-yurek-daniel-andrew-lefkok-ling
+  venue: sp2022
+  url: https://eprint.iacr.org/2021/1591
+-
   title: 'Jolteon and Ditto: Network-Adaptive Efficient Consensus with Asynchronous Fallback (Alphabetical)'  
   authors: rati-lefkok-alberto-sasha-daniel
   venue: fc2022
@@ -19,27 +45,6 @@
   -
       content: Part of DiemBFT
       url: https://developers.diem.com/docs/technical-papers/state-machine-replication-paper/
-      color: brown
-      icon: ★
--
-  title: 'Bullshark: DAG BFT Protocols Made Practical'  
-  authors: sasha-neil-alberto-lefkok
-  venue: ccs2022
-  url: https://arxiv.org/pdf/2201.05677
--
-  title: 'Narwhal and Tusk: A DAG-based Mempool and Efficient BFT Consensus (Alphabetical)'  
-  authors: george-lefkok-alberto-sasha
-  venue: eurosys2022
-  url: https://arxiv.org/abs/2102.08325
-  meta:
-  -
-      content: Used by Celo
-      url: https://medium.com/celoorg/celo-sets-sights-on-becoming-fastest-evm-chain-through-collaboration-with-mysten-labs-e88b426aee83 
-      color: brown
-      icon: ★
-  -
-      content: Used by Sommelier
-      url: https://sommelier.finance/blog/sommelier-partners-with-mysten-labs-to-make-sommelier-and-all-cosmos-blockchains-the-fastest-protocols-on-the-planet
       color: brown
       icon: ★
 -
@@ -87,11 +92,6 @@
   authors: lefkok-malkhi-sasha
   venue: ccs2020
   url: https://eprint.iacr.org/2019/1015
--
-  title: 'Practical Asynchronous Distributed Key Generation'
-  authors: das-yurek-daniel-andrew-lefkok-ling
-  venue: sp2022
-  url: https://eprint.iacr.org/2021/1591
 -
   title: ' Rethinking General-Purpose Decentralized Computing'
   authors: alpeq-lefkokeq-fragkouli-bford
