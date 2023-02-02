@@ -3,7 +3,7 @@ layout: default
 ---
 ## About
 
-I am an Assistant Professor at **[IST Austria](https://ist.ac.at/en/research/kokoris-group/)** working on Blockchains, Applied Cryptography and Distributed Computing. Beofre that I was a Senior Research Scientist at **[Facebook](https://ch.linkedin.com/in/eleftherios-kokoris-kogias-52836274)**. I also work with multiple blockchain companies on applying my research to production.
+I am an Assistant Professor at **[IST Austria](https://ist.ac.at/en/research/kokoris-group/)** and a Research Scientist at **[Mysten Labs](https://mystenlabs.com/)** working on Blockchains, Applied Cryptography and Distributed Computing. Beofre that I was a Research Scientist at **[Facebook](https://ch.linkedin.com/in/eleftherios-kokoris-kogias-52836274)**. 
 
 I received my Ph.D. in Computer Science from  **[EPFL](https://people.epfl.ch/eleftherios.kokoriskogias?lang=en)**, 
 and my MEng in Electrical and Computer Engineering from the **[National Technical University of Athens](https://www.ece.ntua.gr/en)**.
@@ -15,6 +15,7 @@ I am working on building a scalable and robust infrastructure for the future dec
 {% include bibliography.html %}
 
 ## Awards and Honors
+*   Meta Research Award for Key Transparency (NDSS 2023)
 *   Best Paper Award at EuroSys 2022
 *   EPFL Thesis Distinction 2020
 *   EPFL IC School Appreciation for Exceptional Performance 2018

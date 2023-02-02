@@ -8,6 +8,11 @@ sec2017:
   year: 2017
   name: 26th USENIX Security Symposium
   url: https://www.usenix.org/conference/usenixsecurity17
+sec2016:
+  slug: Security'
+  year: 2023
+  name: 32nd USENIX Security Symposium
+  url: https://www.usenix.org/conference/usenixsecurity23
 sp2017:
   slug: Oakland'
   year: 2017
@@ -73,6 +78,11 @@ fc2022:
   year: 2022
   name: 26th International Conference on Financial Cryptography and Data Security 2022
   url: https://fc22.ifca.ai/
+fc2023:
+  slug: FC
+  year: 2023
+  name: 27h International Conference on Financial Cryptography and Data Security 2023
+  url: https://fc23.ifca.ai/
 eurosys2022:
   slug: EuroSys
   year: 2022
@@ -88,3 +98,8 @@ ccs2022:
   year: 2022
   name: 29th ACM Conference on Computer and Communications Security
   url: https://www.sigsac.org/ccs/CCS2022/index.html#
+ndss2023:
+  slug: NDSS
+  year: 2023
+  name: The Network and Distributed System Security Symposium
+  url: https://www.ndss-symposium.org/ndss2023/

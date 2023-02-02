@@ -1,5 +1,26 @@
 ---
 -
+  title: 'Practical Asynchronous High-threshold Distributed Key Generation and Distributed Polynomial Sampling'  
+  authors: das-daniel-lefkok-ling
+  venue: sec2023
+  url: https://eprint.iacr.org/2022/1389.pdf
+-
+  title: 'Executing and Proving over Dirty Ledgers'  
+  authors: christos-daniel-lefkok
+  venue: fc2023
+  url: https://eprint.iacr.org/2022/1554.pdf
+-
+  title: 'Proof of Availability & Retrieval in a Modular Blockchain
+Architecture'  
+  authors: shir-guy-lefkok-alberto-sasha
+  venue: fc2023
+  url: https://eprint.iacr.org/2022/455.pdf
+-
+  title: 'Parakeet: Practical Key Transparency for End-to-End Encrypted Messaging'  
+  authors: jasleen-lefkok-alberto-esha-ercan-kevin-sean
+  venue: ndss2023
+  url: https://eprint.iacr.org/2023/081.pdf
+-
   title: 'Bullshark: DAG BFT Protocols Made Practical'  
   authors: sasha-neil-alberto-lefkok
   venue: ccs2022
