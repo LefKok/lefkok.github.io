@@ -8,7 +8,7 @@ sec2017:
   year: 2017
   name: 26th USENIX Security Symposium
   url: https://www.usenix.org/conference/usenixsecurity17
-sec2016:
+sec2023:
   slug: Security'
   year: 2023
   name: 32nd USENIX Security Symposium
@@ -101,5 +101,5 @@ ccs2022:
 ndss2023:
   slug: NDSS
   year: 2023
-  name: The Network and Distributed System Security Symposium
+  name: Network and Distributed System Security Symposium
   url: https://www.ndss-symposium.org/ndss2023/
