@@ -21,6 +21,11 @@ Architecture (Alphabetical)'
   venue: ndss2023
   url: https://eprint.iacr.org/2023/081.pdf
 -
+  title: ' Divide and Scale: Formalization of Distributed Ledger Sharding Protocols ' 
+  authors: zeta-lefkok-antoine-wattenhofer
+  venue: siroco2023
+  url: https://arxiv.org/abs/1910.10434
+-
   title: 'Bullshark: DAG BFT Protocols Made Practical'  
   authors: sasha-neil-alberto-lefkok
   venue: ccs2022
@@ -117,11 +122,6 @@ Architecture (Alphabetical)'
   title: ' Rethinking General-Purpose Decentralized Computing'
   authors: alpeq-lefkokeq-fragkouli-bford
   venue: hotos2019
--
-  title: ' Divide and Scale: Formalization of Distributed Ledger Sharding Protocols ' 
-  authors: zeta-lefkok-antoine-wattenhofer
-  venue: siroco2023
-  url: https://arxiv.org/abs/1910.10434
 -
   title: 'Channels: Horizontal Scaling and Confidentiality on Permissioned Blockchains (Alphabetical) ' 
   authors: androulaki-cachin-decaro-lefkok
