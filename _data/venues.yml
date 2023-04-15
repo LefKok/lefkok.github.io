@@ -103,3 +103,8 @@ ndss2023:
   year: 2023
   name: Network and Distributed System Security Symposium
   url: https://www.ndss-symposium.org/ndss2023/
+siroco2023:
+  slug: SIROCCO
+  year: 2023
+  name: 2023 International Colloquium on Structural Information and Communication Complexity.
+  url: https://sirocco2023.networks.imdea.org/

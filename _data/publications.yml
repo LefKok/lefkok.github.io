@@ -118,8 +118,9 @@ Architecture (Alphabetical)'
   authors: alpeq-lefkokeq-fragkouli-bford
   venue: hotos2019
 -
-  title: ' Divide and Scale: Formalization of Distributed Ledger Sharding Protocols (Alphabetical) ' 
-  authors: zeta-lefkok-wattenhofer
+  title: ' Divide and Scale: Formalization of Distributed Ledger Sharding Protocols ' 
+  authors: zeta-lefkok-antoine-wattenhofer
+  venue: siroco2023
   url: https://arxiv.org/abs/1910.10434
 -
   title: 'Channels: Horizontal Scaling and Confidentiality on Permissioned Blockchains (Alphabetical) ' 
