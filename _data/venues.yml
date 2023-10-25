@@ -108,3 +108,13 @@ siroco2023:
   year: 2023
   name: 2023 International Colloquium on Structural Information and Communication Complexity.
   url: https://sirocco2023.networks.imdea.org/
+aft2023:
+  slug: AFT
+  year: 2023
+  name: Advances in Financial Technologies 2023
+  url: https://aftconf.github.io/aft23/index.html
+sosp2023:
+  slug: SOSP
+  year: 2023
+  name: The 29th ACM Symposium on Operating Systems Principles
+  url: https://sosp2023.mpi-sws.org/

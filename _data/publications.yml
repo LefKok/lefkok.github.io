@@ -1,5 +1,10 @@
 ---
 -
+  title: 'QuePaxa: Escaping the Tyranny of Timeouts in Consensus'  
+  authors: pasindu-cbasescu-syta-jovanovic-vero-bford
+  venue: sosp2023
+  url: https://bford.info/pub/os/quepaxa/quepaxa.pdf
+-
   title: 'Practical Asynchronous High-threshold Distributed Key Generation and Distributed Polynomial Sampling'  
   authors: das-daniel-lefkok-ling
   venue: sec2023
@@ -20,6 +25,11 @@ Architecture (Alphabetical)'
   authors: jasleen-lefkok-alberto-esha-ercan-kevin-sean
   venue: ndss2023
   url: https://eprint.iacr.org/2023/081.pdf
+-
+  title: 'STROBE: Streaming Threshold Random Beacons'  
+  authors: beaver-kryptos-mkelkar-lefkok-kevin-ladi-vnikoalenko-arnab-alberto
+  venue: aft2023
+  url: https://eprint.iacr.org/2021/1643
 -
   title: ' Divide and Scale: Formalization of Distributed Ledger Sharding Protocols ' 
   authors: zeta-lefkok-antoine-wattenhofer
