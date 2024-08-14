@@ -1,5 +1,20 @@
 ---
 -
+  title: 'Sui Lutris: A Blockchain Combining Broadcast and Consensus'  
+  authors: sam-andrey-george-tasos-lefkok-xun-mlogan-ashok-nowacki-alberto-bwilliams-lzhang
+  venue: ccs2024
+  url: https://arxiv.org/pdf/2310.18042
+-
+  title: 'HammerHead: Leader Reputation for Dynamic Scheduling'  
+  authors: tsimos-tasos-alberto-lefkok
+  venue: icdcs2024
+  url: https://arxiv.org/abs/2309.12713
+-
+  title: 'An Empirical Study of Consensus Protocols' DoS Resilience'  
+  authors: giacomo-alberto-mfrei-fstreun-lefkok-perrig
+  venue: asiaccs2024
+  url: https://netsec.ethz.ch/publications/papers/Consensus_DDoS_AsiaCCS_24.pdf
+-
   title: 'QuePaxa: Escaping the Tyranny of Timeouts in Consensus'  
   authors: pasindu-cbasescu-lefkok-syta-jovanovic-vero-bford
   venue: sosp2023
