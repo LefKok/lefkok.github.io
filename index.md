@@ -17,6 +17,7 @@ I am working on building a scalable and robust infrastructure for the future dec
 
 ## Awards and Honors
 
+- Distringuished Paper Award at CCS 2024
 - Meta Research Award for Key Transparency (NDSS 2023)
 - Best Paper Award at EuroSys 2022
 - EPFL Thesis Distinction 2020
