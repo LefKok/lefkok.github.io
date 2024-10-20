@@ -133,3 +133,8 @@ icdcs2024:
   year: 2024
   name: 44th IEEE International Conference on Distributed Computing Systems
   url: https://icdcs2024.icdcs.org/
+ndss2025:
+  slug: NDSS
+  year: 2025
+  name: Network and Distributed System Security Symposium
+  url: https://www.ndss-symposium.org/ndss2025/

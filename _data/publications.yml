@@ -1,9 +1,27 @@
 ---
 -
-  title: 'Sui Lutris: A Blockchain Combining Broadcast and Consensus'  
+  title: 'Mysticeti: Reaching the Limits of Latency with Uncertified DAGs
+(Alphabetical)'  
+  authors: kushal-andrey-george-tasos-lefkok-arun-alberto-mingwei
+  venue: ndss2025
+  url: https://arxiv.org/pdf/2310.14821
+  meta:
+  -
+      content: Used by Sui
+      url: https://blog.sui.io/mysticeti-consensus-reduce-latency/
+      color: brown
+      icon: ★
+-
+  title: 'Sui Lutris: A Blockchain Combining Broadcast and Consensus (Alphabetical)'  
   authors: sam-andrey-george-tasos-lefkok-xun-mlogan-ashok-nowacki-alberto-bwilliams-lzhang
   venue: ccs2024
   url: https://arxiv.org/pdf/2310.18042
+  meta:
+  -
+      content: Used by Sui
+      url: https://www.mystenlabs.com/blog sui-lutris-the-distributed-system-protocol-at-the-heart-of-sui
+      color: brown
+      icon: ★
 -
   title: 'HammerHead: Leader Reputation for Dynamic Scheduling'  
   authors: tsimos-tasos-alberto-lefkok
@@ -40,6 +58,12 @@ Architecture (Alphabetical)'
   authors: jasleen-lefkok-alberto-esha-ercan-kevin-sean
   venue: ndss2023
   url: https://eprint.iacr.org/2023/081.pdf
+  meta:
+  -
+      content: Used by WhatsApp
+      url: https://engineering.fb.com/2023/04/13/security/whatsapp-key-transparency/ 
+      color: brown
+      icon: ★
 -
   title: 'STROBE: Streaming Threshold Random Beacons'  
   authors: beaver-kryptos-mkelkar-lefkok-kevin-ladi-vnikoalenko-arnab-alberto
@@ -55,6 +79,12 @@ Architecture (Alphabetical)'
   authors: sasha-neil-alberto-lefkok
   venue: ccs2022
   url: https://arxiv.org/pdf/2201.05677
+  meta:
+  -
+      content: Used by Sui
+      url: https://mirror.xyz/contributiondaoblog.eth/k3oqzOxwRXXDWLmzLYNxEoLKpoPA25ke1EOBLvqOzYg
+      color: brown
+      icon: ★
 -
   title: 'Narwhal and Tusk: A DAG-based Mempool and Efficient BFT Consensus (Alphabetical)'  
   authors: george-lefkok-alberto-sasha
@@ -71,6 +101,16 @@ Architecture (Alphabetical)'
       url: https://sommelier.finance/blog/sommelier-partners-with-mysten-labs-to-make-sommelier-and-all-cosmos-blockchains-the-fastest-protocols-on-the-planet
       color: brown
       icon: ★
+  -
+      content: Used by Sui
+      url: https://blog.sui.io/narwhal-tusk-open-source/
+      color: brown
+      icon: ★
+  -
+      content: Used by Aptos
+      url: https://github.com/aptos-foundation/AIPs/blob/main/aips/aip-26.md 
+      color: brown
+      icon: ★
 -
   title: 'Practical Asynchronous Distributed Key Generation'
   authors: das-yurek-daniel-andrew-lefkok-ling
@@ -83,7 +123,7 @@ Architecture (Alphabetical)'
   url: https://sonnino.com/papers/jolteon-and-ditto.pdf
   meta:
   -
-      content: Part of DiemBFT
+      content: Part of DiemBFT and later Aptos
       url: https://developers.diem.com/docs/technical-papers/state-machine-replication-paper/
       color: brown
       icon: ★
@@ -94,7 +134,7 @@ Architecture (Alphabetical)'
   url: https://sonnino.com/papers/leader-reputation.pdf
   meta:
   -
-      content: Part of DiemBFT
+      content: Part of DiemBFT and later Aptos
       url: https://developers.diem.com/docs/technical-papers/state-machine-replication-paper/
       color: brown
       icon: ★
