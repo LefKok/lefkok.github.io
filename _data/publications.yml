@@ -1,9 +1,44 @@
 ---
 -
-  title: 'Pilotfish: Distributed Execution for Scalable Blockchains'  
+  title: 'Thunderbolt: Concurrent Smart Contract Execution with Non-blocking Reconfiguration for Sharded DAGs'  
+  authors: junchao-alberto-lefkok-mohammad
+  venue: edbt2026
+  url: https://arxiv.org/abs/2407.09409
+-
+  title: 'Byzantine Consensus in the Random Asynchronous Model (Alphabetical)'  
+  authors: george-jovan-lefkok-alberto-igor
+  venue: disc2025
+  url: https://arxiv.org/abs/2502.09116
+-
+  title: 'Securing Consensus from Long-Range Attacks through Collaboration'  
+  authors: junchao-suyash-alberto-lefkok-mohammad
+  venue: srds2025
+  url: https://arxiv.org/abs/2302.02325
+-
+  title: 'Pilotfish: Distributed Execution for Scalable Blockchains (Alphabetical)'  
   authors: qkniep-lefkok-alberto-igor-nuda
   venue: fc2025
   url: https://arxiv.org/abs/2401.16292
+-
+  title: 'Seahorse: Efficiently Mixing Encrypted and Normal Transactions'  
+  authors: ben-alberto-lefkok
+  venue: fc2025
+  url: https://fc25.ifca.ai/preproceedings/127.pdf
+-
+  title: 'Anthemius: Efficient & Modular Block Assembly for Concurrent Execution'  
+  authors: ray-lefkok
+  venue: fc2025
+  url: https://arxiv.org/abs/2502.10074
+-
+  title: 'Mahi-Mahi: Low-Latency Asynchronous BFT DAG-Based Consensus (Alphabetical)'  
+  authors: jovanovic-lefkok-bryan-alberto-pasindu-igor
+  venue: icdcs2025
+  url: https://arxiv.org/abs/2410.08670
+-
+  title: 'RACS-SADL: Robust and Understandable Randomized Consensus in the Cloud'  
+  authors: pasindu-antoine-lefkok
+  venue: cloud2025
+  url: https://arxiv.org/abs/2404.04183
 -
   title: 'Mysticeti: Reaching the Limits of Latency with Uncertified DAGs
 (Alphabetical)'  

@@ -323,3 +323,31 @@ nuda:
   firstname: Nuda
   lastname: Zhang
   website: https://www.linkedin.com/in/tonyzhangnd/
+ray:
+  firstname: Ray
+  lastname: Neiheiser
+  website: https://ray-neiheiser.github.io/
+ben:
+  firstname: Ben
+  lastname: Riva
+  website: https://www.linkedin.com/in/benriva/
+bryan:
+  firstname: Bryan
+  lastname: Kumara
+  website: https://orcid.org/0009-0000-7623-7053
+jovan:
+  firstname: Jovan
+  lastname: Komatovic
+  website: https://www.linkedin.com/in/jovan-komatovic-494227280
+junchao:
+  firstname: Junchao
+  lastname: Chen
+  website: https://www.linkedin.com/in/junchao-chen-ab75a353/
+mohammad:
+  firstname: Mohammad
+  lastname: Sadoghi
+  website: https://cs.ucdavis.edu/directory/mohammad-sadoghi
+suyash:
+  firstname: Suyash
+  lastname: Gupta
+  website: https://gupta-suyash.github.io/
