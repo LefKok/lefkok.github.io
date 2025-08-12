@@ -138,3 +138,8 @@ ndss2025:
   year: 2025
   name: Network and Distributed System Security Symposium
   url: https://www.ndss-symposium.org/ndss2025/
+fc2025:
+  slug: FC
+  year: 2025
+  name: 29th International Conference on Financial Cryptography and Data Security
+  url: https://fc25.ifca.ai/
