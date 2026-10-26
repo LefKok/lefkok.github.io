@@ -1,3 +1,37 @@
-# lefkok.github.io
+# Lefteris Kokoris-Kogias
 
-Personal Website Template using Jekyll for Github Pages
+Personal website focused on distributed systems research, technology transfer, and contributions to deployed systems. The redesign source is in `src/`; the original Jekyll source is retained for reference.
+
+## Build and preview
+
+Requires Node.js 20 or later. No packages need installing.
+
+```sh
+npm run build
+npm run check
+npm run dev
+```
+
+The static site is generated in `dist/`. The preview serves at `http://127.0.0.1:4173`.
+
+## Content
+
+- `content/profile.json`: role, biography, expertise, and evidence links.
+- `content/awards.json`: complete awards and honors, sources, and homepage selections. The build includes this record in profile metadata and the `/awards/` subpage.
+- `content/publications.json`: research archive, selected entries, and venue/award sources.
+- `content/mentorship.json`: students and interns, mentorship sources, and shared publication IDs or preprints. Builds the `/mentorship/` subpage.
+- `content/media.json`: curated talk groups keep repeat presentations together without removing any appearance link; talks, recordings, and authored writing.
+- `src/index.html`: page structure and descriptive copy.
+- `src/styles.css`: responsive styling.
+
+Rebuild after changing content. All research entries are rendered in the HTML before JavaScript runs. Search and filtering are progressive enhancements.
+
+The build also produces `profile.json`, `research.json`, `media.json`, `llms.txt`, a Markdown version of the page, `robots.txt`, a sitemap, and linked Person/ProfilePage/ScholarlyArticle metadata. The canonical domain is `https://lefkok.github.io/`. A private review copy cannot be indexed publicly; deploy `dist/` to the public domain when launching the redesign. No automatic GitHub deployment is configured by this change.
+
+## Sources and editorial choices
+
+The existing website supplied the original 39 research entries and portrait. Four new entries complete the requested five-item 2026 group, including the existing Thunderbolt entry. Thunderbolt's runner-up award, VLDB appearances, and Walrus's CCS acceptance are linked to primary sources in the data. Sunfish / Sparse Nodes is explicitly labeled an SBC presentation, as confirmed by the author. The current leadership responsibility was confirmed by Lefteris directly.
+
+The name mark is **LK²**. The site does not advertise consulting availability or a geographical base. Publication authors and institutional/event names are preserved.
+
+Design references reviewed: [Loi Luu](https://www.loiluu.com/) for a focused professional profile, [Patrick Collison](https://patrickcollison.com/) for restraint, [Maggie Appleton](https://maggieappleton.com/) for the relationship between research and writing, and [Alberto Sonnino](https://sonnino.com/) for connecting publications with practical adoption. The design and copy here are original.

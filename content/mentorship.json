@@ -1,0 +1,698 @@
+{
+  "updatedAt": "2026-10-26",
+  "groups": [
+    {
+      "id": "doctoral",
+      "title": "PhD and postdoctoral advising"
+    },
+    {
+      "id": "masters",
+      "title": "Master’s thesis advising"
+    },
+    {
+      "id": "mysten",
+      "title": "Mysten Labs · Research internships"
+    },
+    {
+      "id": "meta",
+      "title": "Facebook / Meta · Research internships"
+    },
+    {
+      "id": "research",
+      "title": "Research mentorship"
+    }
+  ],
+  "people": [
+    {
+      "id": "zhengqing-liu",
+      "name": "Zhengqing (Scofield) Liu",
+      "group": "mysten",
+      "role": "Research intern",
+      "period": "2024",
+      "url": "https://scofieldliu.com/",
+      "paperIds": [
+        "remora"
+      ],
+      "sources": [
+        {
+          "url": "https://scofieldliu.com/",
+          "evidence": "Lists Lefteris among the advisors of his June–August 2024 Mysten Labs research internship."
+        }
+      ],
+      "confirmation": {
+        "source": "Lefteris Kokoris-Kogias",
+        "checkedAt": "2026-10-26",
+        "evidence": "Mentorship relationship and any explicitly specified formal advising role confirmed directly by Lefteris."
+      }
+    },
+    {
+      "id": "giorgos-tsimos",
+      "name": "Giorgos Tsimos",
+      "group": "mysten",
+      "role": "Research intern",
+      "period": "2023",
+      "url": "https://georgetsimos.github.io/",
+      "paperIds": [
+        "hammerhead-leader-reputation-for-dynamic-scheduling"
+      ],
+      "sources": [
+        {
+          "url": "https://georgetsimos.github.io/",
+          "evidence": "Explicitly names Lefteris as his summer 2023 Mysten Labs mentor."
+        },
+        {
+          "url": "https://sonnino.com/academia/",
+          "evidence": "Alberto also lists this internship in his supervision record."
+        }
+      ],
+      "confirmation": {
+        "source": "Lefteris Kokoris-Kogias",
+        "checkedAt": "2026-10-26",
+        "evidence": "Mentorship relationship and any explicitly specified formal advising role confirmed directly by Lefteris."
+      }
+    },
+    {
+      "id": "pasindu-tennage",
+      "name": "Pasindu Tennage",
+      "group": "doctoral",
+      "role": "PhD co-advisee · EPFL",
+      "url": "https://pasindutennage.github.io/index.html",
+      "paperIds": [
+        "mahi-mahi-low-latency-asynchronous-bft-dag-based-consensus",
+        "racs-sadl-robust-and-understandable-randomized-consensus-in-the-cloud",
+        "quepaxa-escaping-the-tyranny-of-timeouts-in-consensus"
+      ],
+      "additionalPapers": [],
+      "sources": [
+        {
+          "url": "https://pasindutennage.github.io/index.html",
+          "finding": "Personal site explicitly identifies Bryan Ford as PhD advisor and Lefteris Kokoris-Kogias as co-advisor. It also lists a 2022 scientific-researcher internship in ISTA’s SPIDERS lab."
+        },
+        {
+          "url": "https://bford.info/thesis/2025-tennage/private-defense.pdf",
+          "finding": "Defense cover names Lefteris as thesis co-director."
+        }
+      ],
+      "period": "2019–2025",
+      "confirmation": {
+        "source": "Lefteris Kokoris-Kogias",
+        "checkedAt": "2026-10-26",
+        "evidence": "Mentorship relationship and any explicitly specified formal advising role confirmed directly by Lefteris."
+      },
+      "context": "Visiting researcher at IST Austria, 2022"
+    },
+    {
+      "id": "ray-neiheiser",
+      "name": "Ray Neiheiser",
+      "group": "doctoral",
+      "role": "Postdoctoral advisee · IST Austria",
+      "url": "https://ray-neiheiser.github.io/cv/",
+      "paperIds": [
+        "anthemius-efficient-modular-block-assembly-for-concurrent-execution"
+      ],
+      "additionalPapers": [
+        {
+          "id": "chiron",
+          "label": "CHIRON",
+          "title": "CHIRON: Accelerating Node Synchronization without Security Trade-offs in Distributed Ledgers",
+          "url": "https://arxiv.org/abs/2401.14278",
+          "type": "Preprint",
+          "year": 2024,
+          "authors": "Ray Neiheiser, Arman Babaei, Giannis Alexopoulos, Marios Kogias, Eleftherios Kokoris Kogias",
+          "relatedVersion": {
+            "label": "Pythia · SIB 2024",
+            "url": "https://aftsib.com/papers/SIB24_paper_4.pdf"
+          },
+          "note": "Pythia has the same authors and overlapping abstract; avoid double-counting versions as separate outcomes without user confirmation."
+        },
+        {
+          "id": "cobra",
+          "label": "CoBRA",
+          "title": "CoBRA: A Universal Strategyproof Confirmation Protocol for Quorum-based Proof-of-Stake Blockchains",
+          "url": "https://arxiv.org/abs/2503.16783",
+          "type": "Preprint",
+          "year": 2025,
+          "authors": "Zeta Avarikioti, Eleftherios Kokoris Kogias, Ray Neiheiser, Christos Stefo"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ray-neiheiser.github.io/cv/",
+          "finding": "Ray’s CV explicitly lists an ISTA postdoctoral appointment advised by Lefteris, separately from his later ISTA appointment advised by Krzysztof Pietrzak."
+        }
+      ],
+      "confirmation": {
+        "source": "Lefteris Kokoris-Kogias",
+        "checkedAt": "2026-10-26",
+        "evidence": "Mentorship relationship and any explicitly specified formal advising role confirmed directly by Lefteris."
+      }
+    },
+    {
+      "id": "ioannis-alexopoulos",
+      "name": "Ioannis (Giannis) Alexopoulos",
+      "group": "masters",
+      "role": "Master’s thesis advisee",
+      "url": null,
+      "paperIds": [],
+      "additionalPapers": [
+        {
+          "id": "chiron",
+          "label": "CHIRON",
+          "title": "CHIRON: Accelerating Node Synchronization without Security Trade-offs in Distributed Ledgers",
+          "url": "https://arxiv.org/abs/2401.14278",
+          "type": "Preprint",
+          "year": 2024,
+          "authors": "Ray Neiheiser, Arman Babaei, Giannis Alexopoulos, Marios Kogias, Eleftherios Kokoris Kogias",
+          "relatedVersion": {
+            "label": "Pythia · SIB 2024",
+            "url": "https://aftsib.com/papers/SIB24_paper_4.pdf"
+          },
+          "note": "Pythia has the same authors and overlapping abstract; avoid double-counting versions as separate outcomes without user confirmation."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://dspace.lib.ntua.gr/xmlui/bitstream/handle/123456789/59424/alexopoulos_thesis.pdf?isAllowed=y&sequence=1",
+          "finding": "His 2023 NTUA thesis explicitly describes an internship in Lefteris’s SPiDeRS group on a project overseen by Ray Neiheiser. Its title page names Aris Pagourtzis as formal thesis supervisor and Lefteris on the examination committee, so do not label Lefteris the formal diploma supervisor."
+        }
+      ],
+      "confirmation": {
+        "source": "Lefteris Kokoris-Kogias",
+        "checkedAt": "2026-10-26",
+        "evidence": "Mentorship relationship and any explicitly specified formal advising role confirmed directly by Lefteris."
+      }
+    },
+    {
+      "id": "fatima-elsheimy",
+      "name": "Fatima Elsheimy",
+      "group": "mysten",
+      "role": "Research intern",
+      "url": null,
+      "paperIds": [],
+      "additionalPapers": [],
+      "sources": [
+        {
+          "url": "https://sonnino.com/academia/",
+          "finding": "Listed among Alberto Sonnino’s advised or co-advised interns; does not identify Lefteris as co-mentor."
+        }
+      ],
+      "confirmation": {
+        "source": "Lefteris Kokoris-Kogias",
+        "checkedAt": "2026-10-26",
+        "evidence": "Mentorship relationship and any explicitly specified formal advising role confirmed directly by Lefteris."
+      },
+      "period": "2026"
+    },
+    {
+      "id": "dakai-kang",
+      "name": "Dakai Kang",
+      "group": "mysten",
+      "role": "Research intern",
+      "url": null,
+      "paperIds": [],
+      "additionalPapers": [],
+      "sources": [
+        {
+          "url": "https://sonnino.com/academia/",
+          "finding": "Listed among Alberto Sonnino’s advised or co-advised interns; does not identify Lefteris as co-mentor."
+        }
+      ],
+      "confirmation": {
+        "source": "Lefteris Kokoris-Kogias",
+        "checkedAt": "2026-10-26",
+        "evidence": "Mentorship relationship and any explicitly specified formal advising role confirmed directly by Lefteris."
+      },
+      "period": "2025"
+    },
+    {
+      "id": "jianting-zhang",
+      "name": "Jianting Zhang",
+      "group": "mysten",
+      "role": "Research intern",
+      "url": "https://jtingzhang.github.io/",
+      "paperIds": [],
+      "additionalPapers": [
+        {
+          "id": "beluga",
+          "label": "Beluga",
+          "title": "Beluga: Block Synchronization for BFT Consensus Protocols",
+          "url": "https://arxiv.org/abs/2511.15517",
+          "type": "Preprint",
+          "year": 2025,
+          "authors": "Tasos Kichidis, Lefteris Kokoris-Kogias, Arun Koshy, Ilya Sergey, Alberto Sonnino, Mingwei Tian, Jianting Zhang",
+          "evidenceUrl": "https://sonnino.com/papers/beluga.pdf"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://sonnino.com/academia/",
+          "finding": "Listed among Alberto Sonnino’s advised or co-advised interns; does not identify Lefteris as co-mentor."
+        },
+        {
+          "url": "https://jtingzhang.github.io/",
+          "finding": "His personal site confirms Mysten internship May–August 2025 and shared Beluga preprint, but does not name the internship mentors."
+        }
+      ],
+      "confirmation": {
+        "source": "Lefteris Kokoris-Kogias",
+        "checkedAt": "2026-10-26",
+        "evidence": "Mentorship relationship and any explicitly specified formal advising role confirmed directly by Lefteris."
+      },
+      "period": "2025"
+    },
+    {
+      "id": "giulia-scaffino",
+      "name": "Giulia Scaffino",
+      "group": "mysten",
+      "role": "Research intern",
+      "url": "https://giulia-scaffino.com/",
+      "paperIds": [
+        "sunfish"
+      ],
+      "additionalPapers": [],
+      "sources": [
+        {
+          "url": "https://sonnino.com/academia/",
+          "finding": "Listed among Alberto Sonnino’s advised or co-advised interns; does not identify Lefteris as co-mentor."
+        },
+        {
+          "url": "https://eprint.iacr.org/2024/1680.pdf",
+          "finding": "Sunfish acknowledgments confirm the work was conducted during Giulia’s Mysten internship. Coauthorship is established but formal mentorship is not separately stated."
+        }
+      ],
+      "confirmation": {
+        "source": "Lefteris Kokoris-Kogias",
+        "checkedAt": "2026-10-26",
+        "evidence": "Mentorship relationship and any explicitly specified formal advising role confirmed directly by Lefteris."
+      },
+      "period": "2024"
+    },
+    {
+      "id": "srivatsan-sridhar",
+      "name": "Srivatsan Sridhar",
+      "group": "mysten",
+      "role": "Research intern",
+      "url": "https://ssrivatsan97.github.io/projects",
+      "paperIds": [],
+      "additionalPapers": [
+        {
+          "id": "stingray",
+          "label": "Stingray",
+          "title": "Stingray: Fast Concurrent Transactions Without Consensus",
+          "url": "https://arxiv.org/abs/2501.06531",
+          "type": "Preprint",
+          "year": 2025,
+          "authors": "Srivatsan Sridhar, Alberto Sonnino, Lefteris Kokoris-Kogias"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://sonnino.com/academia/",
+          "finding": "Listed among Alberto Sonnino’s advised or co-advised interns; does not identify Lefteris as co-mentor."
+        }
+      ],
+      "confirmation": {
+        "source": "Lefteris Kokoris-Kogias",
+        "checkedAt": "2026-10-26",
+        "evidence": "Mentorship relationship and any explicitly specified formal advising role confirmed directly by Lefteris."
+      },
+      "period": "2024"
+    },
+    {
+      "id": "kushal-babel",
+      "name": "Kushal Babel",
+      "group": "mysten",
+      "role": "Research intern",
+      "url": "https://www.cs.cornell.edu/~babel/",
+      "paperIds": [
+        "mysticeti-reaching-the-limits-of-latency-with-uncertified-dags"
+      ],
+      "additionalPapers": [],
+      "sources": [
+        {
+          "url": "https://sonnino.com/academia/",
+          "finding": "Listed among Alberto Sonnino’s advised or co-advised interns; does not identify Lefteris as co-mentor."
+        },
+        {
+          "url": "https://www.cs.cornell.edu/~babel/",
+          "finding": "His Cornell page describes his 2023 Mysten internship with George Danezis and the Systems Group. Mysticeti coauthorship confirmed; does not explicitly identify Lefteris as mentor."
+        }
+      ],
+      "confirmation": {
+        "source": "Lefteris Kokoris-Kogias",
+        "checkedAt": "2026-10-26",
+        "evidence": "Mentorship relationship and any explicitly specified formal advising role confirmed directly by Lefteris."
+      },
+      "period": "2023"
+    },
+    {
+      "id": "quentin-kniep",
+      "name": "Quentin Kniep",
+      "group": "mysten",
+      "role": "Research intern",
+      "url": "https://quentinkniep.com/",
+      "paperIds": [
+        "pilotfish-distributed-execution-for-scalable-blockchains"
+      ],
+      "additionalPapers": [],
+      "sources": [
+        {
+          "url": "https://sonnino.com/academia/",
+          "finding": "Listed among Alberto Sonnino’s advised or co-advised interns; does not identify Lefteris as co-mentor."
+        }
+      ],
+      "confirmation": {
+        "source": "Lefteris Kokoris-Kogias",
+        "checkedAt": "2026-10-26",
+        "evidence": "Mentorship relationship and any explicitly specified formal advising role confirmed directly by Lefteris."
+      },
+      "period": "2023"
+    },
+    {
+      "id": "nuda-tony-zhang",
+      "name": "Nuda (Tony) Zhang",
+      "group": "mysten",
+      "role": "Research intern",
+      "url": "https://tonyzhangnd.github.io/",
+      "paperIds": [
+        "pilotfish-distributed-execution-for-scalable-blockchains"
+      ],
+      "additionalPapers": [],
+      "sources": [
+        {
+          "url": "https://sonnino.com/academia/",
+          "finding": "Listed among Alberto Sonnino’s advised or co-advised interns; does not identify Lefteris as co-mentor."
+        }
+      ],
+      "confirmation": {
+        "source": "Lefteris Kokoris-Kogias",
+        "checkedAt": "2026-10-26",
+        "evidence": "Mentorship relationship and any explicitly specified formal advising role confirmed directly by Lefteris."
+      },
+      "period": "2023"
+    },
+    {
+      "id": "neil-giridharan",
+      "name": "Neil Giridharan",
+      "group": "meta",
+      "role": "Research intern",
+      "url": null,
+      "paperIds": [
+        "bullshark-dag-bft-protocols-made-practical"
+      ],
+      "additionalPapers": [],
+      "sources": [
+        {
+          "url": "https://sonnino.com/academia/",
+          "finding": "Listed among Alberto Sonnino’s advised or co-advised interns; does not identify Lefteris as co-mentor."
+        }
+      ],
+      "confirmation": {
+        "source": "Lefteris Kokoris-Kogias",
+        "checkedAt": "2026-10-26",
+        "evidence": "Mentorship relationship and any explicitly specified formal advising role confirmed directly by Lefteris."
+      },
+      "period": "2022"
+    },
+    {
+      "id": "guy-goren",
+      "name": "Guy Goren",
+      "group": "meta",
+      "role": "Research intern",
+      "url": null,
+      "paperIds": [
+        "proof-of-availability-retrieval-in-a-modular-blockchain-architecture"
+      ],
+      "additionalPapers": [],
+      "sources": [
+        {
+          "url": "https://sonnino.com/academia/",
+          "finding": "Listed among Alberto Sonnino’s advised or co-advised interns; does not identify Lefteris as co-mentor."
+        }
+      ],
+      "confirmation": {
+        "source": "Lefteris Kokoris-Kogias",
+        "checkedAt": "2026-10-26",
+        "evidence": "Mentorship relationship and any explicitly specified formal advising role confirmed directly by Lefteris."
+      },
+      "period": "2022"
+    },
+    {
+      "id": "shir-cohen",
+      "name": "Shir Cohen",
+      "group": "meta",
+      "role": "Research intern",
+      "url": null,
+      "paperIds": [
+        "proof-of-availability-retrieval-in-a-modular-blockchain-architecture",
+        "be-aware-of-your-leaders"
+      ],
+      "additionalPapers": [],
+      "sources": [
+        {
+          "url": "https://sonnino.com/academia/",
+          "finding": "Listed among Alberto Sonnino’s advised or co-advised interns; does not identify Lefteris as co-mentor."
+        }
+      ],
+      "confirmation": {
+        "source": "Lefteris Kokoris-Kogias",
+        "checkedAt": "2026-10-26",
+        "evidence": "Mentorship relationship and any explicitly specified formal advising role confirmed directly by Lefteris."
+      },
+      "period": "2021, 2022"
+    },
+    {
+      "id": "zhuolun-xiang",
+      "name": "Zhuolun Xiang",
+      "group": "meta",
+      "role": "Research intern",
+      "url": "https://sites.google.com/site/danielxiangzl/",
+      "paperIds": [
+        "practical-asynchronous-high-threshold-distributed-key-generation-and-distributed-polynomial-sampling",
+        "executing-and-proving-over-dirty-ledgers",
+        "practical-asynchronous-distributed-key-generation",
+        "jolteon-and-ditto-network-adaptive-efficient-consensus-with-asynchronous-fallback",
+        "brief-announcement-be-prepared-when-network-goes-bad-an-asynchronous-view-change-protocol"
+      ],
+      "additionalPapers": [],
+      "sources": [
+        {
+          "url": "https://sonnino.com/academia/",
+          "finding": "Listed among Alberto Sonnino’s advised or co-advised interns; does not identify Lefteris as co-mentor."
+        },
+        {
+          "url": "https://sites.google.com/site/danielxiangzl/",
+          "finding": "His own work history lists Novi internships in 2020 and 2021, naming Dahlia Malkhi for summer 2020 and Rati Gelashvili for summer 2021. Jolteon and Ditto is linked to part-time work August–December 2020; confirm the period and relationship with Lefteris rather than copying Alberto’s 2021 date."
+        }
+      ],
+      "confirmation": {
+        "source": "Lefteris Kokoris-Kogias",
+        "checkedAt": "2026-10-26",
+        "evidence": "Mentorship relationship and any explicitly specified formal advising role confirmed directly by Lefteris."
+      }
+    },
+    {
+      "id": "antoine-desjardins",
+      "name": "Antoine Desjardins",
+      "group": "masters",
+      "role": "Master’s thesis advisee",
+      "url": null,
+      "paperIds": [
+        "racs-sadl-robust-and-understandable-randomized-consensus-in-the-cloud",
+        "divide-and-scale-formalization-of-distributed-ledger-sharding-protocols"
+      ],
+      "additionalPapers": [],
+      "sources": [
+        {
+          "url": "https://www.mghihp.edu/sites/default/files/2023-04/antoine-desjardins-cv.pdf",
+          "finding": "His university-hosted CV confirms an ISTA scientific internship April–August 2022 and the consensus/sharding projects, but does not name its supervisor."
+        },
+        {
+          "url": "https://research-explorer.ista.ac.at/record/21243",
+          "finding": "ISTA assigns his joint RACS-SADL publication with Lefteris to the Kokoris Group. Evidence of shared work, not independent proof of mentorship."
+        }
+      ],
+      "confirmation": {
+        "source": "Lefteris Kokoris-Kogias",
+        "checkedAt": "2026-10-26",
+        "evidence": "Mentorship relationship and any explicitly specified formal advising role confirmed directly by Lefteris."
+      }
+    },
+    {
+      "id": "christos-stefo",
+      "name": "Christos Stefo",
+      "group": "masters",
+      "role": "Master’s thesis advisee",
+      "url": null,
+      "paperIds": [
+        "executing-and-proving-over-dirty-ledgers"
+      ],
+      "additionalPapers": [
+        {
+          "id": "cobra",
+          "label": "CoBRA",
+          "title": "CoBRA: A Universal Strategyproof Confirmation Protocol for Quorum-based Proof-of-Stake Blockchains",
+          "url": "https://arxiv.org/abs/2503.16783",
+          "type": "Preprint",
+          "year": 2025,
+          "authors": "Zeta Avarikioti, Eleftherios Kokoris Kogias, Ray Neiheiser, Christos Stefo"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://research-explorer.ista.ac.at/person/a20e8902-32b0-11ee-9fa8-b23fa638b793?style=chicago",
+          "finding": "Official ISTA record lists Christos in the Graduate School and the joint Dirty Ledgers paper."
+        },
+        {
+          "url": "https://dspace.lib.ntua.gr/xmlui/handle/123456789/56939",
+          "finding": "Official NTUA repository identifies his diploma thesis Executing and Proving over Dirty Ledger. Aggregated metadata lists Lefteris among contributors, but the exact role could not be read from the primary thesis PDF."
+        }
+      ],
+      "confirmation": {
+        "source": "Lefteris Kokoris-Kogias",
+        "checkedAt": "2026-10-26",
+        "evidence": "Mentorship relationship and any explicitly specified formal advising role confirmed directly by Lefteris."
+      }
+    },
+    {
+      "id": "arman-babaei",
+      "name": "Arman Babaei",
+      "group": "masters",
+      "role": "Master’s thesis advisee",
+      "url": null,
+      "paperIds": [],
+      "additionalPapers": [
+        {
+          "id": "chiron",
+          "label": "CHIRON",
+          "title": "CHIRON: Accelerating Node Synchronization without Security Trade-offs in Distributed Ledgers",
+          "url": "https://arxiv.org/abs/2401.14278",
+          "type": "Preprint",
+          "year": 2024,
+          "authors": "Ray Neiheiser, Arman Babaei, Giannis Alexopoulos, Marios Kogias, Eleftherios Kokoris Kogias",
+          "relatedVersion": {
+            "label": "Pythia · SIB 2024",
+            "url": "https://aftsib.com/papers/SIB24_paper_4.pdf"
+          },
+          "note": "Pythia has the same authors and overlapping abstract; avoid double-counting versions as separate outcomes without user confirmation."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://aftsib.com/papers/SIB24_paper_4.pdf",
+          "finding": "The author-submitted Pythia paper lists Arman’s ISTA affiliation and joint authorship with Lefteris. No direct public mentorship statement found."
+        }
+      ],
+      "confirmation": {
+        "source": "Lefteris Kokoris-Kogias",
+        "checkedAt": "2026-10-26",
+        "evidence": "Mentorship relationship and any explicitly specified formal advising role confirmed directly by Lefteris."
+      }
+    },
+    {
+      "id": "christoph-guenther",
+      "name": "Christoph Günther",
+      "group": "mysten",
+      "role": "Research intern",
+      "period": "2026",
+      "url": "https://gnthr.eu/",
+      "paperIds": [],
+      "additionalPapers": [
+        {
+          "id": "proactive-secret-sharing",
+          "label": "Proactive Secret Sharing & Key Refresh",
+          "title": "Practical Asynchronous Proactive Secret Sharing and Key Refresh",
+          "url": "https://eprint.iacr.org/2022/1586",
+          "year": 2022,
+          "venue": "Preprint",
+          "authors": "Christoph U. Günther, Sourav Das, Lefteris Kokoris-Kogias"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://gnthr.eu/",
+          "evidence": "Name and shared preprint author list."
+        }
+      ],
+      "confirmation": {
+        "source": "Lefteris Kokoris-Kogias",
+        "checkedAt": "2026-10-26",
+        "evidence": "Mentorship relationship and any explicitly specified formal advising role confirmed directly by Lefteris."
+      }
+    },
+    {
+      "id": "harjasleen-malvai",
+      "name": "Harjasleen (Jasleen) Malvai",
+      "group": "meta",
+      "role": "Research intern",
+      "url": "https://jasleenmalvai.com/",
+      "paperIds": [
+        "parakeet-practical-key-transparency-for-end-to-end-encrypted-messaging"
+      ],
+      "sources": [
+        {
+          "url": "https://jasleenmalvai.com/",
+          "evidence": "Preferred name and Parakeet coauthorship."
+        }
+      ],
+      "confirmation": {
+        "source": "Lefteris Kokoris-Kogias",
+        "checkedAt": "2026-10-26",
+        "evidence": "Mentorship relationship and any explicitly specified formal advising role confirmed directly by Lefteris."
+      }
+    },
+    {
+      "id": "oded-naor",
+      "name": "Oded Naor",
+      "group": "meta",
+      "role": "Research intern",
+      "url": "https://www.odednaor.work/",
+      "paperIds": [
+        "all-you-need-is-dag"
+      ],
+      "sources": [
+        {
+          "url": "https://www.odednaor.work/",
+          "evidence": "Novi internship confirmed by personal page."
+        }
+      ],
+      "confirmation": {
+        "source": "Lefteris Kokoris-Kogias",
+        "checkedAt": "2026-10-26",
+        "evidence": "Mentorship relationship and any explicitly specified formal advising role confirmed directly by Lefteris."
+      }
+    },
+    {
+      "id": "junchao-chen",
+      "name": "Junchao Chen",
+      "group": "research",
+      "role": "Research mentee · UC Davis",
+      "url": "https://sessionize.com/junchao-chen/",
+      "paperIds": [
+        "thunderbolt",
+        "securing-consensus-from-long-range-attacks-through-collaboration"
+      ],
+      "sources": [
+        {
+          "url": "https://expolab.org/index.html",
+          "evidence": "UC Davis student affiliation; mentorship relationship confirmed by Lefteris."
+        }
+      ],
+      "confirmation": {
+        "source": "Lefteris Kokoris-Kogias",
+        "checkedAt": "2026-10-26",
+        "evidence": "Mentorship relationship and any explicitly specified formal advising role confirmed directly by Lefteris."
+      }
+    }
+  ],
+  "paperLabels": {
+    "all-you-need-is-dag": "DAG-Rider",
+    "proof-of-availability-retrieval-in-a-modular-blockchain-architecture": "Proof of Availability & Retrieval",
+    "executing-and-proving-over-dirty-ledgers": "Dirty Ledgers",
+    "practical-asynchronous-distributed-key-generation": "ADKG",
+    "practical-asynchronous-high-threshold-distributed-key-generation-and-distributed-polynomial-sampling": "High-threshold ADKG",
+    "be-aware-of-your-leaders": "Carousel",
+    "brief-announcement-be-prepared-when-network-goes-bad-an-asynchronous-view-change-protocol": "Asynchronous View Change",
+    "securing-consensus-from-long-range-attacks-through-collaboration": "Long-Range Attack Resistance"
+  }
+}

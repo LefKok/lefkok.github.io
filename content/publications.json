@@ -1,0 +1,601 @@
+[
+  {
+    "id": "thunderbolt",
+    "title": "Thunderbolt: Concurrent Smart Contract Execution with Nonblocking Reconfiguration for Sharded DAGs",
+    "authors": "Junchao Chen, Alberto Sonnino, Lefteris Kokoris-Kogias, Mohammad Sadoghi",
+    "year": 2026,
+    "venue": "EDBT",
+    "url": "https://arxiv.org/abs/2407.09409",
+    "evidenceUrl": "https://edbticdt2026.github.io/?contents=awards_bp_edbt.html",
+    "venueUrl": "https://edbticdt2026.github.io/?contents=awards_bp_edbt.html",
+    "recognition": "Best Paper Runner-Up",
+    "presentation": false,
+    "selected": true,
+    "verification": "Title, authors, venue, and runner-up award verified on the official conference award page.",
+    "impact": []
+  },
+  {
+    "id": "remora",
+    "title": "Remora: Scale-out Deterministic Execution for Smart Contracts",
+    "authors": "Zhengqing Liu, Alberto Sonnino, Igor Zablotchi, Eleftherios Kokoris-Kogias, Marios Kogias",
+    "year": 2026,
+    "venue": "VLDB",
+    "url": "https://arxiv.org/abs/2607.02817",
+    "evidenceUrl": "https://vldb.org/2026/program.html",
+    "venueUrl": "https://vldb.org/2026/program.html",
+    "presentation": false,
+    "selected": true,
+    "verification": "Verified by the official VLDB program, authors' public code repository, and arXiv.",
+    "codeUrl": "https://github.com/remora-sys/remora",
+    "impact": []
+  },
+  {
+    "id": "tidehunter",
+    "title": "Tidehunter: Large-Value Storage With Minimal Data Relocation",
+    "authors": "Andrey Chursin, Lefteris Kokoris-Kogias, Alex Orlov, Alberto Sonnino, Igor Zablotchi",
+    "year": 2026,
+    "venue": "VLDB",
+    "url": "https://arxiv.org/abs/2602.01873",
+    "evidenceUrl": "https://vldb.org/2026/program.html",
+    "venueUrl": "https://vldb.org/2026/program.html",
+    "presentation": false,
+    "selected": true,
+    "verification": "Title, authors, venue and benchmark verified on the official VLDB program and arXiv.",
+    "codeUrl": "https://github.com/MystenLabs/tidehunter",
+    "impact": [],
+    "authorNote": "Authors listed alphabetically"
+  },
+  {
+    "id": "walrus",
+    "title": "Walrus: An Efficient Decentralized Storage Network",
+    "authors": "George Danezis, Giacomo Giuliari, Lefteris Kokoris-Kogias, Markus Legner, Jean-Pierre Smith, Alberto Sonnino, Karl Wüst",
+    "year": 2026,
+    "venue": "CCS",
+    "url": "https://arxiv.org/abs/2505.05370",
+    "evidenceUrl": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+    "venueUrl": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html",
+    "presentation": false,
+    "selected": true,
+    "verification": "Title, authors, and CCS 2026 acceptance verified on the official CCS accepted-papers page.",
+    "impact": [],
+    "authorNote": "Authors listed alphabetically"
+  },
+  {
+    "id": "sunfish",
+    "title": "Sunfish: Reading Ledgers with Sparse Nodes",
+    "authors": "Giulia Scaffino, Karl Wüst, Deepak Maram, Alberto Sonnino, Lefteris Kokoris-Kogias",
+    "year": 2026,
+    "venue": "SBC",
+    "url": "https://eprint.iacr.org/2024/1680",
+    "evidenceUrl": "https://eprint.iacr.org/2024/1680",
+    "venueUrl": "https://eprint.iacr.org/2024/1680",
+    "presentation": true,
+    "selected": true,
+    "verification": "Paper title/authors verified on IACR. SBC presentation supplied directly by user; official 2026 program currently omits it. Public Common Prefix announcement mirrored elsewhere says accepted at SBC'26. Do not infer exact date or presenter.",
+    "impact": [],
+    "firstPublishedYear": 2024
+  },
+  {
+    "title": "Byzantine Consensus in the Random Asynchronous Model",
+    "authors": "George Danezis, Jovan Komatovic, Eleftherios Kokoris-Kogias, Alberto Sonnino, Igor Zablotchi",
+    "year": 2025,
+    "venue": "DISC",
+    "url": "https://arxiv.org/abs/2502.09116",
+    "venueUrl": "https://www.disc-conference.org/wp/disc2025/",
+    "impact": [],
+    "id": "byzantine-consensus-in-the-random-asynchronous-model",
+    "selected": false,
+    "authorNote": "Authors listed alphabetically"
+  },
+  {
+    "title": "Securing Consensus from Long-Range Attacks through Collaboration",
+    "authors": "Junchao Chen, Suyash Gupta, Alberto Sonnino, Eleftherios Kokoris-Kogias, Mohammad Sadoghi",
+    "year": 2025,
+    "venue": "SRDS",
+    "url": "https://arxiv.org/abs/2302.02325",
+    "venueUrl": "https://www.srds-conference.org/",
+    "impact": [],
+    "id": "securing-consensus-from-long-range-attacks-through-collaboration",
+    "selected": false
+  },
+  {
+    "title": "Pilotfish: Distributed Execution for Scalable Blockchains",
+    "authors": "Quentin Kniep, Eleftherios Kokoris-Kogias, Alberto Sonnino, Igor Zablotchi, Nuda Zhang",
+    "year": 2025,
+    "venue": "FC",
+    "url": "https://arxiv.org/abs/2401.16292",
+    "venueUrl": "https://fc25.ifca.ai/",
+    "impact": [],
+    "id": "pilotfish-distributed-execution-for-scalable-blockchains",
+    "selected": false,
+    "authorNote": "Authors listed alphabetically"
+  },
+  {
+    "title": "Seahorse: Efficiently Mixing Encrypted and Normal Transactions",
+    "authors": "Ben Riva, Alberto Sonnino, Eleftherios Kokoris-Kogias",
+    "year": 2025,
+    "venue": "FC",
+    "url": "https://fc25.ifca.ai/preproceedings/127.pdf",
+    "venueUrl": "https://fc25.ifca.ai/",
+    "impact": [],
+    "id": "seahorse-efficiently-mixing-encrypted-and-normal-transactions",
+    "selected": false
+  },
+  {
+    "title": "Anthemius: Efficient & Modular Block Assembly for Concurrent Execution",
+    "authors": "Ray Neiheiser, Eleftherios Kokoris-Kogias",
+    "year": 2025,
+    "venue": "FC",
+    "url": "https://arxiv.org/abs/2502.10074",
+    "venueUrl": "https://fc25.ifca.ai/",
+    "impact": [],
+    "id": "anthemius-efficient-modular-block-assembly-for-concurrent-execution",
+    "selected": false
+  },
+  {
+    "title": "Mahi-Mahi: Low-Latency Asynchronous BFT DAG-Based Consensus",
+    "authors": "Philipp Jovanovic, Eleftherios Kokoris-Kogias, Bryan Kumara, Alberto Sonnino, Pasindu Tennage, Igor Zablotchi",
+    "year": 2025,
+    "venue": "ICDCS",
+    "url": "https://arxiv.org/abs/2410.08670",
+    "venueUrl": "https://icdcs2025.icdcs.org/",
+    "impact": [],
+    "id": "mahi-mahi-low-latency-asynchronous-bft-dag-based-consensus",
+    "selected": false,
+    "authorNote": "Authors listed alphabetically"
+  },
+  {
+    "title": "RACS-SADL: Robust and Understandable Randomized Consensus in the Cloud",
+    "authors": "Pasindu Tennage, Antoine Desjardins, Eleftherios Kokoris-Kogias",
+    "year": 2025,
+    "venue": "CLOUD",
+    "url": "https://arxiv.org/abs/2404.04183",
+    "venueUrl": "https://services.conferences.computer.org/2025/cloud/",
+    "impact": [],
+    "id": "racs-sadl-robust-and-understandable-randomized-consensus-in-the-cloud",
+    "selected": false
+  },
+  {
+    "title": "Mysticeti: Reaching the Limits of Latency with Uncertified DAGs",
+    "authors": "Kushal Babel, Andrey Chursin, George Danezis, Anastasios Kichidis, Eleftherios Kokoris-Kogias, Arun Koshy, Alberto Sonnino, Mingwei Tian",
+    "year": 2025,
+    "venue": "NDSS",
+    "url": "https://arxiv.org/pdf/2310.14821",
+    "venueUrl": "https://www.ndss-symposium.org/ndss2025/",
+    "impact": [
+      {
+        "title": "Used by Sui",
+        "url": "https://blog.sui.io/mysticeti-consensus-reduce-latency/"
+      }
+    ],
+    "id": "mysticeti-reaching-the-limits-of-latency-with-uncertified-dags",
+    "selected": true,
+    "authorNote": "Authors listed alphabetically"
+  },
+  {
+    "title": "Sui Lutris: A Blockchain Combining Broadcast and Consensus",
+    "authors": "Sam Blackshear, Andrey Chursin, George Danezis, Anastasios Kichidis, Eleftherios Kokoris-Kogias, Xun Li, Mark Logan, Ashok Menon, Todd Nowacki, Alberto Sonnino, Brandon Williams, Lu Zhang",
+    "year": 2024,
+    "venue": "CCS",
+    "url": "https://arxiv.org/pdf/2310.18042",
+    "venueUrl": "https://www.sigsac.org/ccs/CCS2024/",
+    "impact": [
+      {
+        "title": "Used by Sui",
+        "url": "https://www.mystenlabs.com/blog/sui-lutris-the-distributed-system-protocol-at-the-heart-of-sui"
+      }
+    ],
+    "id": "sui-lutris-a-blockchain-combining-broadcast-and-consensus",
+    "selected": true,
+    "recognition": "Distinguished Paper · CCS 2024",
+    "authorNote": "Authors listed alphabetically"
+  },
+  {
+    "title": "HammerHead: Leader Reputation for Dynamic Scheduling",
+    "authors": "Giorgos Tsimos, Anastasios Kichidis, Alberto Sonnino, Eleftherios Kokoris-Kogias",
+    "year": 2024,
+    "venue": "ICDCS",
+    "url": "https://arxiv.org/abs/2309.12713",
+    "venueUrl": "https://icdcs2024.icdcs.org/",
+    "impact": [],
+    "id": "hammerhead-leader-reputation-for-dynamic-scheduling",
+    "selected": false
+  },
+  {
+    "title": "An Empirical Study of Consensus Protocols DoS Resilience",
+    "authors": "Giacomo Giuliari, Alberto Sonnino, Marc Frei, Fabio Streun, Eleftherios Kokoris-Kogias, Adrian Perrig",
+    "year": 2024,
+    "venue": "ASIACCS",
+    "url": "https://netsec.ethz.ch/publications/papers/Consensus_DDoS_AsiaCCS_24.pdf",
+    "venueUrl": "https://asiaccs2024.sutd.edu.sg/",
+    "impact": [],
+    "id": "an-empirical-study-of-consensus-protocols-dos-resilience",
+    "selected": false
+  },
+  {
+    "title": "QuePaxa: Escaping the Tyranny of Timeouts in Consensus",
+    "authors": "Pasindu Tennage, Cristina Basescu, Eleftherios Kokoris-Kogias, Ewa Syta, Philipp Jovanovic, Vero Estrada-Galinanes, Bryan Ford",
+    "year": 2023,
+    "venue": "SOSP",
+    "url": "https://bford.info/pub/os/quepaxa/quepaxa.pdf",
+    "venueUrl": "https://sosp2023.mpi-sws.org/",
+    "impact": [],
+    "id": "quepaxa-escaping-the-tyranny-of-timeouts-in-consensus",
+    "selected": false
+  },
+  {
+    "title": "Practical Asynchronous High-threshold Distributed Key Generation and Distributed Polynomial Sampling",
+    "authors": "Sourav Das, Zhuolun Xiang, Eleftherios Kokoris-Kogias, Ling Ren",
+    "year": 2023,
+    "venue": "USENIX Security",
+    "url": "https://eprint.iacr.org/2022/1389.pdf",
+    "venueUrl": "https://www.usenix.org/conference/usenixsecurity23",
+    "impact": [],
+    "id": "practical-asynchronous-high-threshold-distributed-key-generation-and-distributed-polynomial-sampling",
+    "selected": false
+  },
+  {
+    "title": "Executing and Proving over Dirty Ledgers",
+    "authors": "Christos Stefo, Zhuolun Xiang, Eleftherios Kokoris-Kogias",
+    "year": 2023,
+    "venue": "FC",
+    "url": "https://eprint.iacr.org/2022/1554.pdf",
+    "venueUrl": "https://fc23.ifca.ai/",
+    "impact": [],
+    "id": "executing-and-proving-over-dirty-ledgers",
+    "selected": false
+  },
+  {
+    "title": "Proof of Availability & Retrieval in a Modular Blockchain Architecture",
+    "authors": "Shir Cohen, Guy Goren, Eleftherios Kokoris-Kogias, Alberto Sonnino, Alexander Spiegelman",
+    "year": 2023,
+    "venue": "FC",
+    "url": "https://eprint.iacr.org/2022/455.pdf",
+    "venueUrl": "https://fc23.ifca.ai/",
+    "impact": [],
+    "id": "proof-of-availability-retrieval-in-a-modular-blockchain-architecture",
+    "selected": false,
+    "authorNote": "Authors listed alphabetically"
+  },
+  {
+    "title": "Parakeet: Practical Key Transparency for End-to-End Encrypted Messaging",
+    "authors": "Harjasleen Malvai, Eleftherios Kokoris-Kogias, Alberto Sonnino, Esha Ghosh, Ercan Oztürk, Kevin Lewi, Sean Lawlor",
+    "year": 2023,
+    "venue": "NDSS",
+    "url": "https://eprint.iacr.org/2023/081.pdf",
+    "venueUrl": "https://www.ndss-symposium.org/ndss2023/",
+    "impact": [
+      {
+        "title": "Used by WhatsApp",
+        "url": "https://engineering.fb.com/2023/04/13/security/whatsapp-key-transparency/"
+      }
+    ],
+    "id": "parakeet-practical-key-transparency-for-end-to-end-encrypted-messaging",
+    "selected": true
+  },
+  {
+    "title": "STROBE: Streaming Threshold Random Beacons",
+    "authors": "Donald Beaver, Kostas Chalkia, Mahimna Kelkar, Eleftherios Kokoris-Kogias, Kevin Lewi, Ladi de Naurois, Valeria Nikolaenko, Arnab Roy, Alberto Sonnino",
+    "year": 2023,
+    "venue": "AFT",
+    "url": "https://eprint.iacr.org/2021/1643",
+    "venueUrl": "https://aftconf.github.io/aft23/index.html",
+    "impact": [],
+    "id": "strobe-streaming-threshold-random-beacons",
+    "selected": false
+  },
+  {
+    "title": "Divide and Scale: Formalization of Distributed Ledger Sharding Protocols",
+    "authors": "Georgia Avarikioti, Eleftherios Kokoris-Kogias, Antoine Desjardins, Roger Wattenhofer",
+    "year": 2023,
+    "venue": "SIROCCO",
+    "url": "https://arxiv.org/abs/1910.10434",
+    "venueUrl": "https://sirocco2023.networks.imdea.org/",
+    "impact": [],
+    "id": "divide-and-scale-formalization-of-distributed-ledger-sharding-protocols",
+    "selected": false
+  },
+  {
+    "title": "Bullshark: DAG BFT Protocols Made Practical",
+    "authors": "Alexander Spiegelman, Neil Giridharan, Alberto Sonnino, Eleftherios Kokoris-Kogias",
+    "year": 2022,
+    "venue": "CCS",
+    "url": "https://arxiv.org/pdf/2201.05677",
+    "venueUrl": "https://www.sigsac.org/ccs/CCS2022/index.html#",
+    "impact": [
+      {
+        "title": "Used by Sui",
+        "url": "https://mirror.xyz/contributiondaoblog.eth/k3oqzOxwRXXDWLmzLYNxEoLKpoPA25ke1EOBLvqOzYg"
+      }
+    ],
+    "id": "bullshark-dag-bft-protocols-made-practical",
+    "selected": false
+  },
+  {
+    "title": "Narwhal and Tusk: A DAG-based Mempool and Efficient BFT Consensus",
+    "authors": "George Danezis, Eleftherios Kokoris-Kogias, Alberto Sonnino, Alexander Spiegelman",
+    "year": 2022,
+    "venue": "EuroSys",
+    "url": "https://arxiv.org/abs/2105.11827",
+    "venueUrl": "https://2022.eurosys.org/",
+    "impact": [
+      {
+        "title": "Used by Celo",
+        "url": "https://medium.com/celoorg/celo-sets-sights-on-becoming-fastest-evm-chain-through-collaboration-with-mysten-labs-e88b426aee83"
+      },
+      {
+        "title": "Used by Sommelier",
+        "url": "https://sommelier.finance/blog/sommelier-partners-with-mysten-labs-to-make-sommelier-and-all-cosmos-blockchains-the-fastest-protocols-on-the-planet"
+      },
+      {
+        "title": "Used by Sui",
+        "url": "https://blog.sui.io/narwhal-tusk-open-source/"
+      },
+      {
+        "title": "Used by Aptos",
+        "url": "https://github.com/aptos-foundation/AIPs/blob/main/aips/aip-26.md"
+      }
+    ],
+    "id": "narwhal-and-tusk-a-dag-based-mempool-and-efficient-bft-consensus",
+    "selected": true,
+    "recognition": "Best Paper · EuroSys 2022",
+    "authorNote": "Authors listed alphabetically"
+  },
+  {
+    "title": "Practical Asynchronous Distributed Key Generation",
+    "authors": "Sourav Das, Tom Yurek, Zhuolun Xiang, Andrew Miller, Eleftherios Kokoris-Kogias, Ling Ren",
+    "year": 2022,
+    "venue": "IEEE S&P",
+    "url": "https://eprint.iacr.org/2021/1591",
+    "venueUrl": "https://www.ieee-security.org/TC/SP2022/",
+    "impact": [],
+    "id": "practical-asynchronous-distributed-key-generation",
+    "selected": false
+  },
+  {
+    "title": "Jolteon and Ditto: Network-Adaptive Efficient Consensus with Asynchronous Fallback",
+    "authors": "Rati Gelashvili, Eleftherios Kokoris-Kogias, Alberto Sonnino, Alexander Spiegelman, Zhuolun Xiang",
+    "year": 2022,
+    "venue": "FC",
+    "url": "https://sonnino.com/papers/jolteon-and-ditto.pdf",
+    "venueUrl": "https://fc22.ifca.ai/",
+    "impact": [
+      {
+        "title": "Part of DiemBFT and later Aptos",
+        "url": "https://developers.diem.com/docs/technical-papers/state-machine-replication-paper/"
+      }
+    ],
+    "id": "jolteon-and-ditto-network-adaptive-efficient-consensus-with-asynchronous-fallback",
+    "selected": false,
+    "authorNote": "Authors listed alphabetically"
+  },
+  {
+    "title": "Be Aware of Your Leaders",
+    "authors": "Shir Cohen, Rati Gelashvili, Eleftherios Kokoris-Kogias, Zekun Li, Dahlia Malkhi, Alberto Sonnino, Alexander Spiegelman",
+    "year": 2022,
+    "venue": "FC",
+    "url": "https://sonnino.com/papers/leader-reputation.pdf",
+    "venueUrl": "https://fc22.ifca.ai/",
+    "impact": [
+      {
+        "title": "Part of DiemBFT and later Aptos",
+        "url": "https://developers.diem.com/docs/technical-papers/state-machine-replication-paper/"
+      }
+    ],
+    "id": "be-aware-of-your-leaders",
+    "selected": false,
+    "authorNote": "Authors listed alphabetically"
+  },
+  {
+    "title": "Brief Announcement: Be Prepared When Network Goes Bad: An Asynchronous View-Change Protocol",
+    "authors": "Rati Gelashvili, Eleftherios Kokoris-Kogias, Alexander Spiegelman, Zhuolun Xiang",
+    "year": 2021,
+    "venue": "PODC",
+    "url": "https://arxiv.org/abs/2103.03181",
+    "venueUrl": "https://www.podc.org/podc2021/",
+    "impact": [],
+    "id": "brief-announcement-be-prepared-when-network-goes-bad-an-asynchronous-view-change-protocol",
+    "selected": false,
+    "authorNote": "Authors listed alphabetically"
+  },
+  {
+    "title": "All You Need is DAG",
+    "authors": "Idit Keidar, Eleftherios Kokoris-Kogias, Oded Naor, Alexander Spiegelman",
+    "year": 2021,
+    "venue": "PODC",
+    "url": "https://arxiv.org/abs/2102.08325",
+    "venueUrl": "https://www.podc.org/podc2021/",
+    "impact": [],
+    "id": "all-you-need-is-dag",
+    "selected": false,
+    "authorNote": "Authors listed alphabetically"
+  },
+  {
+    "title": "CALYPSO: Private Data Management for Decentralized Ledgers",
+    "authors": "Eleftherios Kokoris-Kogias, Enis Ceyhun Alp, Linus Gasser, Philipp Jovanovic, Ewa Syta, Bryan Ford",
+    "year": 2021,
+    "venue": "VLDB",
+    "url": "https://eprint.iacr.org/2018/209.pdf",
+    "venueUrl": "https://vldb.org/2021/",
+    "impact": [
+      {
+        "title": "Used by ByzGen",
+        "url": "https://www.byzgen.com/"
+      },
+      {
+        "title": "Used by SunBioscience",
+        "url": "https://sunbioscience.ch"
+      }
+    ],
+    "id": "calypso-private-data-management-for-decentralized-ledgers",
+    "selected": false
+  },
+  {
+    "title": "Brick: Asynchronous State Channels",
+    "authors": "Georgia Avarikioti, Eleftherios Kokoris-Kogias, Roger Wattenhofer, Dionysis Zindros",
+    "year": 2021,
+    "venue": "FC",
+    "url": "https://arxiv.org/abs/1905.11360",
+    "venueUrl": "https://fc21.ifca.ai/",
+    "impact": [],
+    "id": "brick-asynchronous-state-channels",
+    "selected": false,
+    "authorNote": "Authors listed alphabetically"
+  },
+  {
+    "title": "Sok: Communication across distributed ledgers",
+    "authors": "Alexei Zamyatin, Mustafa Al-Bassam, Dionysis Zindros, Eleftherios Kokoris-Kogias, Pedro Moreno-Sanchez, Aggelos Kiayias, William Knottenbelt",
+    "year": 2021,
+    "venue": "FC",
+    "url": "https://eprint.iacr.org/2019/1128",
+    "venueUrl": "https://fc21.ifca.ai/",
+    "impact": [],
+    "id": "sok-communication-across-distributed-ledgers",
+    "selected": false
+  },
+  {
+    "title": "Asynchronous Distributed Key Generation for Computationally- Secure Randomness, Consensus, and Threshold Signatures.",
+    "authors": "Eleftherios Kokoris-Kogias, Dahlia Malkhi, Alexander Spiegelman",
+    "year": 2020,
+    "venue": "CCS",
+    "url": "https://eprint.iacr.org/2019/1015",
+    "venueUrl": "https://www.sigsac.org/ccs/CCS2020/index.html#",
+    "impact": [],
+    "id": "asynchronous-distributed-key-generation-for-computationally-secure-randomness-consensus-and-threshold-signatures",
+    "selected": false
+  },
+  {
+    "title": "Rethinking General-Purpose Decentralized Computing",
+    "authors": "Enis Ceyhun Alp*, Eleftherios Kokoris-Kogias*, Georgia Fragkouli, Bryan Ford",
+    "year": 2019,
+    "venue": "HotOS",
+    "url": "https://bford.info/pub/os/protean-abs/",
+    "venueUrl": "http://hotos19.sigops.org/",
+    "impact": [],
+    "id": "rethinking-general-purpose-decentralized-computing",
+    "selected": false
+  },
+  {
+    "title": "Channels: Horizontal Scaling and Confidentiality on Permissioned Blockchains",
+    "authors": "Elli Androulaki, Christian Cachin, Angelo De Caro, Eleftherios Kokoris-Kogias",
+    "year": 2018,
+    "venue": "ESORICS",
+    "url": "https://link.springer.com/chapter/10.1007/978-3-319-99073-6_6",
+    "venueUrl": "https://esorics2018.upc.edu/",
+    "impact": [
+      {
+        "title": "Deployed in Hyperledger Fabric",
+        "url": "https://hyperledger-fabric.readthedocs.io/en/release-1.3/channels.html"
+      }
+    ],
+    "id": "channels-horizontal-scaling-and-confidentiality-on-permissioned-blockchains",
+    "selected": false,
+    "authorNote": "Authors listed alphabetically"
+  },
+  {
+    "title": "Omniledger: A secure, scale-out, decentralized ledger via sharding",
+    "authors": "Eleftherios Kokoris-Kogias, Philipp Jovanovic, Linus Gasser, Nicolas Gailly, Ewa Syta, Bryan Ford",
+    "year": 2018,
+    "venue": "IEEE S&P",
+    "url": "https://csdl.computer.org/csdl/proceedings/sp/2018/4353/00/435301a583-abs.html",
+    "venueUrl": "https://www.ieee-security.org/TC/SP2018/",
+    "impact": [
+      {
+        "title": "Part of Harmony Blockchain",
+        "url": "https://harmony.one/technology/"
+      }
+    ],
+    "id": "omniledger-a-secure-scale-out-decentralized-ledger-via-sharding",
+    "selected": true,
+    "selectionEvidence": {
+      "reason": "Most-cited paper on Google Scholar",
+      "source": "https://scholar.google.gr/citations?user=7TOIlqkAAAAJ&hl=en&sortby=citedby",
+      "checkedAt": "2026-10-26"
+    }
+  },
+  {
+    "title": "CHAINIAC: Proactive Software-Update Transparency via Collectively Signed Skipchains and Verified Builds",
+    "authors": "Kirill Nikitin, Eleftherios Kokoris-Kogias, Philipp Jovanovic, Nicolas Gailly, Linus Gasser, Justin Cappos, Bryan Ford",
+    "year": 2017,
+    "venue": "USENIX Security",
+    "url": "https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-nikitin.pdf",
+    "venueUrl": "https://www.usenix.org/conference/usenixsecurity17",
+    "impact": [
+      {
+        "title": "EPFL E-Voting uses Skipchains",
+        "url": "https://actu.epfl.ch/news/epfl-uses-blockchain-technology-to-secure-e-voting/"
+      }
+    ],
+    "id": "chainiac-proactive-software-update-transparency-via-collectively-signed-skipchains-and-verified-builds",
+    "selected": false
+  },
+  {
+    "title": "Scalable bias-resistant distributed randomness",
+    "authors": "Ewa Syta, Philipp Jovanovic, Eleftherios Kokoris-Kogias, Nicolas Gailly, Linus Gasser, Ismail Khoffi, Michael J. Fischer, Bryan Ford",
+    "year": 2017,
+    "venue": "IEEE S&P",
+    "url": "https://ieeexplore.ieee.org/abstract/document/7958592/",
+    "venueUrl": "https://www.ieee-security.org/TC/SP2017/",
+    "impact": [
+      {
+        "title": "Basis of Cloudflare's League of Entropy",
+        "url": "https://blog.cloudflare.com/league-of-entropy/"
+      }
+    ],
+    "id": "scalable-bias-resistant-distributed-randomness",
+    "selected": false
+  },
+  {
+    "title": "Proof-of-Personhood: Redemocratizing Permissionless Cryptocurrencies",
+    "authors": "Maria Borge Chavez, Eleftherios Kokoris-Kogias, Philipp Jovanovic, Linus Gasser, Nicolas Gailly, Bryan Ford",
+    "year": 2017,
+    "venue": "EuroS&PW",
+    "url": "https://ieeexplore.ieee.org/abstract/document/7966966",
+    "venueUrl": "https://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=7966454",
+    "impact": [],
+    "id": "proof-of-personhood-redemocratizing-permissionless-cryptocurrencies",
+    "selected": false
+  },
+  {
+    "title": "Managing identities using blockchains and CoSi",
+    "authors": "Eleftherios Kokoris-Kogias, Linus Gasser, Ismail Khoffi, Philipp Jovanovic, Nicolas Gailly, Bryan Ford",
+    "year": 2016,
+    "venue": "HotPETs",
+    "url": "https://infoscience.epfl.ch/record/220210/files/1_Managing_identities_bryan_ford_etc.pdf",
+    "venueUrl": "https://petsymposium.org/2016/spw-mirror/pets-2016/hotpets/",
+    "impact": [
+      {
+        "title": "Prelimary Version of Skipchains"
+      }
+    ],
+    "id": "managing-identities-using-blockchains-and-cosi",
+    "selected": false
+  },
+  {
+    "title": "TRM-SIoT: A scalable hybrid trust & reputation model for the social internet of things",
+    "authors": "Eleftherios Kokoris-Kogias, Orfefs Voutyras, Theodora Varvarigou",
+    "year": 2016,
+    "venue": "ETFA",
+    "url": "https://ieeexplore.ieee.org/abstract/document/7733612",
+    "venueUrl": "https://www.etfa2016.org/",
+    "impact": [],
+    "id": "trm-siot-a-scalable-hybrid-trust-reputation-model-for-the-social-internet-of-things",
+    "selected": false
+  },
+  {
+    "title": "Enhancing bitcoin security and performance with strong consistency via collective signing",
+    "authors": "Eleftherios Kokoris-Kogias, Philipp Jovanovic, Nicolas Gailly, Ismail Khoffi, Linus Gasser, Bryan Ford",
+    "year": 2016,
+    "venue": "USENIX Security",
+    "url": "https://www.usenix.org/system/files/conference/usenixsecurity16/sec16_paper_kokoris-kogias.pdf",
+    "venueUrl": "https://www.usenix.org/conference/usenixsecurity16",
+    "impact": [
+      {
+        "title": "The Backbone of Cypherium",
+        "url": "https://cypherium.io/"
+      }
+    ],
+    "id": "enhancing-bitcoin-security-and-performance-with-strong-consistency-via-collective-signing",
+    "selected": false
+  }
+]

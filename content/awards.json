@@ -1,0 +1,91 @@
+[
+  {
+    "id": "thunderbolt-edbt",
+    "year": "2026",
+    "title": "Best Paper Runner-Up",
+    "organization": "EDBT",
+    "detail": "Thunderbolt",
+    "url": "https://edbticdt2026.github.io/?contents=awards_bp_edbt.html",
+    "selected": true
+  },
+  {
+    "id": "lutris-ccs",
+    "year": "2024",
+    "title": "Distinguished Paper Award",
+    "organization": "ACM CCS",
+    "detail": "Sui Lutris",
+    "selected": true,
+    "url": "https://www.sigsac.org/ccs/CCS2024/program/awards.html"
+  },
+  {
+    "id": "meta-key-transparency",
+    "year": "2023",
+    "title": "Meta Research Award for Key Transparency",
+    "organization": "Meta",
+    "detail": "NDSS 2023"
+  },
+  {
+    "id": "narwhal-eurosys",
+    "year": "2022",
+    "title": "Best Paper Award",
+    "organization": "EuroSys",
+    "detail": "Narwhal and Tusk",
+    "selected": true,
+    "url": "https://2022.eurosys.org/index.html%40p%3D652.html"
+  },
+  {
+    "id": "epfl-thesis",
+    "year": "2020",
+    "title": "Thesis Distinction",
+    "organization": "EPFL",
+    "selected": true,
+    "url": "https://www.epfl.ch/schools/ic/fr/a-propos/prix-recompenses/doctorants/"
+  },
+  {
+    "id": "ibm-2018",
+    "year": "2018–2020",
+    "title": "IBM PhD Fellowship",
+    "organization": "IBM",
+    "url": "https://actu.epfl.ch/news/a-second-ibm-fellowship-awarded-to-lefteris-koko-2/"
+  },
+  {
+    "id": "epfl-performance-2018",
+    "year": "2018",
+    "title": "Appreciation for Exceptional Performance",
+    "organization": "EPFL IC School"
+  },
+  {
+    "id": "ibm-2017",
+    "year": "2017–2018",
+    "title": "IBM PhD Fellowship",
+    "organization": "IBM",
+    "url": "https://actu.epfl.ch/news/ibm-fellowship-given-to-lefteris-kokoris-kogias/"
+  },
+  {
+    "id": "epfl-performance-2017",
+    "year": "2017",
+    "title": "Appreciation for Exceptional Performance",
+    "organization": "EPFL IC School"
+  },
+  {
+    "id": "thomaidion",
+    "year": "2016",
+    "title": "Thomaidion Award for Academic Excellence",
+    "organization": "NTUA",
+    "url": "https://ecocloud.epfl.ch/2018/05/07/lefteris-kokoris-kogias-wins-ibm-phd-fellowship-award-for-the-second-year-running/"
+  },
+  {
+    "id": "edic-fellowship",
+    "year": "2015",
+    "title": "EDIC PhD Fellowship",
+    "organization": "EPFL",
+    "url": "https://ecocloud.epfl.ch/2018/05/07/lefteris-kokoris-kogias-wins-ibm-phd-fellowship-award-for-the-second-year-running/"
+  },
+  {
+    "id": "ieeextreme",
+    "year": null,
+    "title": "2nd Place in Greece",
+    "organization": "IEEEXtreme 7.0",
+    "detail": "Programming competition"
+  }
+]

@@ -1,0 +1,68 @@
+{
+  "name": "Lefteris Kokoris-Kogias",
+  "alternateName": "Eleftherios Kokoris-Kogias",
+  "url": "https://lefkok.github.io/",
+  "role": "Distributed Systems Research Lead",
+  "organization": "Mysten Labs / Sui",
+  "description": "Lefteris Kokoris-Kogias leads distributed systems research at Mysten Labs / Sui. A researcher specializing in technology transfer, he translates between academic research and production engineering in consensus, applied cryptography, and decentralized infrastructure.",
+  "leadershipSource": "Confirmed directly by Lefteris Kokoris-Kogias on 2026-10-26.",
+  "email": "lefteris@mystenlabs.com",
+  "updatedAt": "2026-10-26",
+  "expertise": [
+    "Distributed systems research leadership",
+    "Technology transfer between academic research and production engineering",
+    "Byzantine fault-tolerant consensus",
+    "DAG-based consensus",
+    "Applied cryptography",
+    "Decentralized storage",
+    "Storage engines and data availability",
+    "Blockchain execution and scalability",
+    "Key and binary transparency",
+    "Distributed randomness",
+    "Research-to-production engineering",
+    "Threshold cryptography",
+    "Asynchronous distributed key generation",
+    "Access-controlled encrypted data sharing"
+  ],
+  "education": [
+    "EPFL",
+    "National Technical University of Athens"
+  ],
+  "previousRoles": [
+    "Assistant Professor, IST Austria",
+    "Research Scientist, Facebook / Meta"
+  ],
+  "links": {
+    "scholar": "https://scholar.google.gr/citations?user=7TOIlqkAAAAJ",
+    "dblp": "https://dblp.uni-trier.de/pers/hd/k/Kokoris=Kogias:Eleftherios",
+    "linkedin": "https://www.linkedin.com/in/lefteris-kokoris/",
+    "github": "https://github.com/LefKok",
+    "twitter": "https://twitter.com/LefKok"
+  },
+  "impactEvidence": [
+    {
+      "claim": "Consensus research adopted by Sui",
+      "url": "https://blog.sui.io/mysticeti-consensus-reduce-latency/"
+    },
+    {
+      "claim": "Co-author of Walrus, a decentralized storage network",
+      "url": "https://arxiv.org/abs/2505.05370"
+    },
+    {
+      "claim": "Co-author of Tidehunter, a key-value storage engine with minimal data relocation",
+      "url": "https://arxiv.org/abs/2602.01873"
+    },
+    {
+      "claim": "Parakeet research informs WhatsApp key transparency",
+      "url": "https://engineering.fb.com/2023/04/13/security/whatsapp-key-transparency/"
+    },
+    {
+      "claim": "Research foundation of drand and the League of Entropy",
+      "url": "https://blog.cloudflare.com/league-of-entropy/"
+    },
+    {
+      "claim": "Co-author of CHAINIAC, for binary transparency and verifiable software updates",
+      "url": "https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-nikitin.pdf"
+    }
+  ]
+}

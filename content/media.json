@@ -1,0 +1,472 @@
+{
+  "talks": [
+    {
+      "title": "Coding Techniques in Walrus for Massive Storage",
+      "fullTitle": "Lefteris Kokoris-Kogias - Coding Techniques in Walrus for Massive Storage",
+      "year": 2026,
+      "host": "Honest Majority by Common Prefix",
+      "speaker": "Lefteris Kokoris-Kogias",
+      "interviewer": "Dionysis Zindros",
+      "url": "https://www.youtube.com/watch?v=j2AGlgfcGQ0",
+      "evidenceUrl": "https://www.linkedin.com/posts/commonprefix_lefteris-kokoris-kogias-coding-techniques-activity-7510954412756992001-p1Ox",
+      "summary": "A conversation about Walrus, self-healing storage, Sui, and turning research into deployed infrastructure.",
+      "verification": "Common Prefix's recording title names Lefteris Kokoris-Kogias, and its description identifies him as the person interviewed about Walrus. This is presenter-specific metadata, not a paper author list.",
+      "speakerEvidence": {
+        "evidenceType": "recording-credit",
+        "evidenceUrl": "https://www.youtube.com/watch?v=j2AGlgfcGQ0",
+        "checkedAt": "2026-10-26T13:57:26Z"
+      },
+      "uploadDate": "2026-03-27"
+    },
+    {
+      "title": "Walrus: An Efficient Decentralized Storage Network",
+      "date": "2025-06-20",
+      "host": "Athens Cryptography Day",
+      "speaker": "Lefteris Kokoris-Kogias",
+      "url": "https://www.corelab.ntua.gr/athecrypt2025/",
+      "summary": "The coding and recovery protocols behind efficient decentralized blob storage.",
+      "verification": "The official AtheCrypt 2025 program names Lefteris (spelled Kokkoris-Kogias there) for the Walrus session, 17:00–17:30 on 20 June. No recording or post-event presenter confirmation was found. Program attribution is explicit, but actual delivery was not independently verified.",
+      "groupId": "walrus",
+      "speakerEvidence": {
+        "evidenceType": "event-program",
+        "evidenceUrl": "https://www.corelab.ntua.gr/athecrypt2025/",
+        "checkedAt": "2026-10-26T13:57:26Z",
+        "actualDeliveryVerified": false
+      }
+    },
+    {
+      "title": "Walrus: An Efficient Decentralized Storage Network",
+      "year": 2025,
+      "host": "Protocol Berg v2 · Department of Decentralization",
+      "url": "https://www.youtube.com/watch?v=HkdRJlz5rLU",
+      "evidenceUrl": "https://v2.protocol.berlin/",
+      "dateNote": "Conference held June 12–13, 2025. Exact session date not extracted.",
+      "verification": "Department of Decentralization's recording is titled Protocol Berg v2: Lefteris Kokoris Kogias - Walrus: An Efficient Decentralized Storage Network. This identifies a single presenter, not a coauthor list.",
+      "speaker": "Lefteris Kokoris-Kogias",
+      "groupId": "walrus",
+      "speakerEvidence": {
+        "evidenceType": "recording-credit",
+        "evidenceUrl": "https://www.youtube.com/watch?v=HkdRJlz5rLU",
+        "checkedAt": "2026-10-26T13:57:26Z"
+      },
+      "uploadDate": "2025-07-20"
+    },
+    {
+      "title": "Generating Randomness Under Asynchrony",
+      "date": "2023-03-30",
+      "host": "Randomness Summit, Tokyo",
+      "speaker": "Lefteris Kokoris Kogias",
+      "url": "https://www.youtube.com/watch?v=eJWUfGnWekk",
+      "summary": "Generating distributed randomness safely in asynchronous networks.",
+      "verification": "Protocol Labs' recording title names Lefteris Kokoris Kogias. The drand retrospective separately states that he gave the presentation on distributed randomness under asynchrony at the 30 March 2023 summit.",
+      "evidenceUrl": "https://docs.drand.love/blog/2023/04/27/randomness-summit/",
+      "speakerEvidence": {
+        "evidenceType": "recording-credit",
+        "evidenceUrl": "https://www.youtube.com/watch?v=eJWUfGnWekk",
+        "checkedAt": "2026-10-26T13:57:26Z"
+      },
+      "uploadDate": "2023-04-03"
+    },
+    {
+      "title": "The Sui Smart Contracts Platform",
+      "year": 2023,
+      "host": "IC3 Winter Retreat",
+      "url": "https://ic3research.org/2023-01-15-ic3-winter-retreat-2023/",
+      "verification": "IC3's event retrospective includes an agenda naming Eleftherios Kokoris-Kogias for this talk in Monday's Enabling DeFi session. The speaker credit is explicit, but no recording or separate confirmation of the delivered session was found.",
+      "speaker": "Lefteris Kokoris-Kogias",
+      "speakerEvidence": {
+        "evidenceType": "event-program",
+        "evidenceUrl": "https://ic3research.org/2023-01-15-ic3-winter-retreat-2023/",
+        "checkedAt": "2026-10-26T13:57:26Z",
+        "actualDeliveryVerified": false
+      }
+    },
+    {
+      "title": "Building Practical and Modular Consensus with DAGs",
+      "date": "2022-03-14",
+      "host": "Athens Cryptography Day",
+      "speaker": "Lefteris Kokoris-Kogias",
+      "url": "https://www.corelab.ntua.gr/athecrypt2022/",
+      "summary": "DAG-Rider, Narwhal and Tusk, from theoretical guarantees to scalable consensus.",
+      "verification": "The official program names Lefteris (spelled Kokkoris-Kogias there) for this 10:00–10:40 talk on 14 March 2022, and includes his abstract. No recording or post-event presenter confirmation was found.",
+      "groupId": "modular-consensus",
+      "speakerEvidence": {
+        "evidenceType": "event-program",
+        "evidenceUrl": "https://corelab.ntua.gr/athecrypt2022/",
+        "checkedAt": "2026-10-26T13:57:26Z",
+        "actualDeliveryVerified": false
+      }
+    },
+    {
+      "title": "Building Practical and Modular Consensus",
+      "year": 2022,
+      "host": "Austrian Computer Science Day · ISTA",
+      "url": "https://acsd2022.ist.ac.at/speakers/",
+      "verification": "The official Austrian Computer Science Day 2022 Speakers and Abstracts page names Eleftherios Kokoris-Kogias (ISTA) and this exact title for the June 21 event. No recording or post-event presenter confirmation was found.",
+      "speaker": "Lefteris Kokoris-Kogias",
+      "groupId": "modular-consensus",
+      "speakerEvidence": {
+        "evidenceType": "event-program",
+        "evidenceUrl": "https://acsd2022.ist.ac.at/speakers/",
+        "checkedAt": "2026-10-26T13:57:26Z",
+        "actualDeliveryVerified": false
+      }
+    },
+    {
+      "title": "Narwhal and Tusk",
+      "year": 2022,
+      "uploadDate": "2022-05-18",
+      "host": "Personal channel",
+      "url": "https://www.youtube.com/watch?v=f7A_k8U0iWY",
+      "verification": "The personal Eleftherios Kokoris Kogias channel's recording title names Lefteris. The visible title slide also credits Lefteris Kokoris-Kogias, IST Austria. The page has no description; event provenance is unspecified.",
+      "speaker": "Lefteris Kokoris-Kogias",
+      "speakerEvidence": {
+        "evidenceType": "recording-credit",
+        "evidenceUrl": "https://www.youtube.com/watch?v=f7A_k8U0iWY",
+        "checkedAt": "2026-10-26T13:57:26Z"
+      }
+    },
+    {
+      "title": "Jolteon and Ditto: Network-Adaptive Efficient Consensus with Asynchronous Fallback",
+      "year": 2021,
+      "host": "ConsensusDays 2021 · Protocol Labs",
+      "url": "https://www.youtube.com/watch?v=mMHOPzoGnYo",
+      "fullTitle": "ConsensusDays 21 / S2.1 / Jolteon and Ditto - Lefteris Kokoris-Kogias",
+      "verification": "The official Protocol Labs recording title is ConsensusDays 21 / S2.1 / Jolteon and Ditto - Lefteris Kokoris-Kogias. The title credits the presenter separately from the multi-author list in the description.",
+      "speaker": "Lefteris Kokoris-Kogias",
+      "speakerEvidence": {
+        "evidenceType": "recording-credit",
+        "evidenceUrl": "https://www.youtube.com/watch?v=mMHOPzoGnYo",
+        "checkedAt": "2026-10-26T13:57:26Z"
+      },
+      "uploadDate": "2021-10-29"
+    },
+    {
+      "title": "Brick: Asynchronous Incentive-Compatible Payment Channels",
+      "year": 2021,
+      "host": "Financial Cryptography and Data Security",
+      "url": "https://www.youtube.com/watch?v=xV_2KKvFVm8",
+      "verification": "The official IFCA recording description explicitly identifies Eleftherios Kokoris Kogias as the person who presented the talk at Financial Cryptography and Data Security 2021, separately from the paper's author list.",
+      "speaker": "Lefteris Kokoris-Kogias",
+      "groupId": "brick",
+      "speakerEvidence": {
+        "evidenceType": "recording-credit",
+        "evidenceUrl": "https://www.youtube.com/watch?v=xV_2KKvFVm8",
+        "checkedAt": "2026-10-26T13:57:26Z"
+      },
+      "uploadDate": "2021-02-25"
+    },
+    {
+      "title": "Bootstrapping Consensus and MPC in an Asynchronous Network",
+      "date": "2021-01-16",
+      "year": 2021,
+      "host": "Athens Cryptography Day",
+      "url": "https://www.corelab.ntua.gr/athecrypt2021/",
+      "evidenceUrl": "https://www.corelab.ntua.gr/athecrypt2021/AtheCrypt_2021_Schedule.pdf",
+      "verification": "The official schedule PDF assigns this exact talk to Lefteris Kokoris-Kogias at 13:00 on Saturday 16 January 2021. No recording or post-event presenter confirmation was found.",
+      "speaker": "Lefteris Kokoris-Kogias",
+      "groupId": "adkg",
+      "speakerEvidence": {
+        "evidenceType": "event-program",
+        "evidenceUrl": "https://www.corelab.ntua.gr/athecrypt2021/AtheCrypt_2021_Schedule.pdf",
+        "checkedAt": "2026-10-26T13:57:26Z",
+        "actualDeliveryVerified": false
+      }
+    },
+    {
+      "title": "Asynchronous Distributed Key Generation",
+      "host": "Workshop on Real-World Decentralized Cryptography · Web3 Foundation",
+      "url": "https://www.youtube.com/watch?v=3pJx-FCtQhc",
+      "verification": "The expanded description on the official Web3 Foundation recording explicitly identifies Eleftherios Kokoris-Kogias, IST Austria & Novi Research, as the speaker for this exact recording.",
+      "speaker": "Lefteris Kokoris-Kogias",
+      "year": 2021,
+      "uploadDate": "2021-01-26",
+      "fullTitle": "Asynchronous Distributed Key Generation for Computational Secure Randomness, Consensus and Threshold Signatures",
+      "groupId": "adkg",
+      "speakerEvidence": {
+        "evidenceType": "recording-credit",
+        "evidenceUrl": "https://www.youtube.com/watch?v=3pJx-FCtQhc",
+        "checkedAt": "2026-10-26"
+      }
+    },
+    {
+      "title": "Toward democratising secure decentralised computation",
+      "year": 2021,
+      "date": "2021-06-18",
+      "host": "FOCODILE 2021 · DisCoTec",
+      "speaker": "Eleftherios Kokoris-Kogias",
+      "url": "https://www.youtube.com/watch?v=bun_AyEl6Lo",
+      "evidenceUrl": "https://www.discotec.org/2021/focodile.html",
+      "verification": "The official FOCODILE 2021 page names Eleftherios Kokkoris-Kogias (its spelling) for this exact talk. The linked recording is on the Eleftherios Kokoris Kogias channel, with the matching title and Focodile 2021 description.",
+      "speakerEvidence": {
+        "evidenceType": "recording-credit",
+        "evidenceUrl": "https://www.discotec.org/2021/focodile.html",
+        "checkedAt": "2026-10-26"
+      }
+    },
+    {
+      "title": "Digital Trust and Decentralization",
+      "year": 2020,
+      "host": "Research seminar",
+      "url": "https://www.youtube.com/watch?v=ftrXpSmwR0I",
+      "evidenceUrl": "https://ist.ac.at/en/news-events/event/?eid=2652",
+      "dateNote": "ISTA seminar of this title was March 3, 2020; recording on personal channel is from 2020, but it is not confirmed to be the same event.",
+      "verification": "The exact recording title explicitly identifies Eleftherios Kokoris-Kogias as the presenter and appears on his personal channel. The recording itself does not identify a specific host event, so do not assign it to the ISTA event without additional evidence.",
+      "speaker": "Lefteris Kokoris-Kogias",
+      "speakerEvidence": {
+        "evidenceType": "recording-credit",
+        "evidenceUrl": "https://www.youtube.com/watch?v=ftrXpSmwR0I",
+        "checkedAt": "2026-10-26"
+      }
+    },
+    {
+      "title": "Brick: Asynchronous Payment Channels",
+      "year": 2020,
+      "host": "FOCODILE 2020",
+      "url": "https://www.youtube.com/watch?v=qttQeYfvMGU",
+      "verification": "The recording title slide highlights Eleftherios Kokoris-Kogias alone in bold among the coauthors. It is on his personal channel and its description identifies FOCODILE 2020. The official DisCoTec programme links to this exact recording.",
+      "speaker": "Lefteris Kokoris-Kogias",
+      "groupId": "brick",
+      "speakerEvidence": {
+        "evidenceType": "recording-credit",
+        "evidenceUrl": "https://www.youtube.com/watch?v=qttQeYfvMGU",
+        "checkedAt": "2026-10-26"
+      }
+    },
+    {
+      "title": "Employing user-selected committees for scalability and confidentiality",
+      "year": 2020,
+      "host": "Theory and Practice of Blockchains",
+      "speaker": "Lefteris Kokoris-Kogias",
+      "url": "https://www.youtube.com/watch?v=S-yz2kIkCVE",
+      "evidenceUrl": "https://myemail.constantcontact.com/IC3-Research-Update.html?aid=QEKzihVbzQk&soid=1126638416463",
+      "verification": "The official IC3 research update lists Lefteris Kokoris-Kogias (Novi) as the TPBC speaker for this title and its YouTube link resolves to the exact recording S-yz2kIkCVE.",
+      "speakerEvidence": {
+        "evidenceType": "recording-credit",
+        "evidenceUrl": "https://myemail.constantcontact.com/IC3-Research-Update.html?aid=QEKzihVbzQk&soid=1126638416463",
+        "checkedAt": "2026-10-26"
+      }
+    },
+    {
+      "title": "Asynchronous Distributed Key Generation",
+      "date": "2019-10-23",
+      "year": 2019,
+      "host": "Simons Institute · Large-Scale Consensus and Blockchains",
+      "url": "https://www.youtube.com/watch?v=3YcEPGc5lK0",
+      "evidenceUrl": "https://simons.berkeley.edu/workshops/large-scale-consensus-blockchains/schedule",
+      "verification": "The official Simons schedule names Kokoris Eleftherios (EPFL) for ADKG on October 23, 2019 and links to this exact recording. The Simons YouTube recording description also names Kokoris Eleftherios (EPFL).",
+      "speaker": "Lefteris Kokoris-Kogias",
+      "groupId": "adkg",
+      "speakerEvidence": {
+        "evidenceType": "recording-credit",
+        "evidenceUrl": "https://simons.berkeley.edu/workshops/large-scale-consensus-blockchains/schedule",
+        "checkedAt": "2026-10-26"
+      }
+    },
+    {
+      "title": "Lefteris on Sharing Private Data over Blockchains",
+      "year": 2018,
+      "host": "Bitcoin Wednesday",
+      "url": "https://www.youtube.com/watch?v=hNvGBXplYPM",
+      "evidenceUrl": "https://www.bitcoinwednesday.com/videos/lefteris-kokoris-kogias-presents-calypso/",
+      "verification": "The expanded description on the official Bitcoin Wednesday recording explicitly says Lefteris Kokoris-Kogias presented Calypso at the December 5, 2018 event in Amsterdam.",
+      "speaker": "Lefteris Kokoris-Kogias",
+      "date": "2018-12-05",
+      "uploadDate": "2019-01-07",
+      "speakerEvidence": {
+        "evidenceType": "recording-credit",
+        "evidenceUrl": "https://www.youtube.com/watch?v=hNvGBXplYPM",
+        "checkedAt": "2026-10-26"
+      }
+    },
+    {
+      "title": "Lefteris Explains Calypso",
+      "year": 2018,
+      "host": "Bitcoin Wednesday",
+      "url": "https://www.youtube.com/watch?v=8pBq87ff2xw",
+      "evidenceUrl": "https://www.bitcoinwednesday.com/videos/lefteris-kokoris-kogias-onchain-secrets/",
+      "format": "Interview",
+      "verification": "The official Bitcoin Wednesday recording description identifies the interview participants: IBM's Frans Kempen interviews Lefteris Kokoris-Kogias about Calypso.",
+      "speaker": "Lefteris Kokoris-Kogias",
+      "date": "2018-12-05",
+      "uploadDate": "2019-01-18",
+      "speakerEvidence": {
+        "evidenceType": "recording-credit",
+        "evidenceUrl": "https://www.youtube.com/watch?v=8pBq87ff2xw",
+        "checkedAt": "2026-10-26"
+      }
+    },
+    {
+      "title": "OmniLedger: A Secure, Scale-Out, Decentralized Ledger via Sharding",
+      "date": "2018-05-22",
+      "year": 2018,
+      "host": "IEEE Symposium on Security and Privacy",
+      "speaker": "Lefteris Kokoris-Kogias",
+      "url": "https://www.youtube.com/watch?v=f1pyaAZ7bj0",
+      "evidenceUrl": "https://infoscience.epfl.ch/bitstreams/0de1b186-2d07-4b6e-a9c9-d866cd8dff4c/download",
+      "verification": "The expanded description of this official IEEE Symposium on Security and Privacy recording names Eleftherios Kokoris-Kogias (EPFL) directly beneath the title and states it was presented at the 2018 symposium.",
+      "groupId": "omniledger",
+      "speakerEvidence": {
+        "evidenceType": "recording-credit",
+        "evidenceUrl": "https://www.youtube.com/watch?v=f1pyaAZ7bj0",
+        "checkedAt": "2026-10-26"
+      }
+    },
+    {
+      "title": "OmniLedger: A Secure, Scale-Out, Decentralized Ledger via Sharding",
+      "date": "2018-10-07",
+      "year": 2018,
+      "host": "Scaling Bitcoin · Tokyo",
+      "speaker": "Lefteris Kokoris-Kogias",
+      "url": "https://tokyo2018.scalingbitcoin.org/presentations",
+      "evidenceUrl": "https://scalingbitcoin.org/transcript/tokyo2018/omniledger",
+      "slidesUrl": "https://tokyo2018.scalingbitcoin.org/files/Day2/omniledger-a-secure-scale-out-decentralized-ledger-via-sharding.pdf",
+      "verification": "The official Scaling Bitcoin transcript opens with the speaker identifying himself as Lefteris, a fourth-year PhD student, then acknowledging his coauthors. This verifies the event talk; the listed URL is the organizer presentation page, not an extracted direct recording.",
+      "groupId": "omniledger",
+      "speakerEvidence": {
+        "evidenceType": "event-transcript",
+        "evidenceUrl": "https://scalingbitcoin.org/transcript/tokyo2018/omniledger",
+        "checkedAt": "2026-10-26"
+      }
+    },
+    {
+      "title": "Scalable and Efficient Distributed Ledgers",
+      "date": "2018-10-25",
+      "year": 2018,
+      "host": "ZISC Seminar · ETH Zürich",
+      "speaker": "Eleftherios Kokoris-Kogias",
+      "url": "https://zisc.ethz.ch/event/scalable-and-efficient-distributed-ledgers/",
+      "verification": "The official ETH ZISC seminar listing names Kokoris Kogias Eleftherios, EPFL, as speaker for this title on October 25, 2018. This is an event-page link, not a recording.",
+      "groupId": "scalable-ledgers",
+      "speakerEvidence": {
+        "evidenceType": "event-program",
+        "evidenceUrl": "https://zisc.ethz.ch/event/scalable-and-efficient-distributed-ledgers/",
+        "checkedAt": "2026-10-26",
+        "actualDeliveryVerified": false
+      }
+    },
+    {
+      "title": "Scalable and Efficient Distributed Ledgers",
+      "year": 2017,
+      "host": "CESC 2017 · Blockchain at Berkeley",
+      "url": "https://www.youtube.com/watch?v=yZCe_ra2a8w",
+      "verification": "The official Blockchain at Berkeley channel title explicitly identifies Eleftherios Kokoris-Kogias as the CESC2017 presenter of Scalable and Efficient Distributed Ledgers.",
+      "speaker": "Lefteris Kokoris-Kogias",
+      "groupId": "scalable-ledgers",
+      "speakerEvidence": {
+        "evidenceType": "recording-credit",
+        "evidenceUrl": "https://www.youtube.com/watch?v=yZCe_ra2a8w",
+        "checkedAt": "2026-10-26"
+      }
+    },
+    {
+      "title": "Enhancing Bitcoin Security and Performance with Strong Consistency via Collective Signing",
+      "year": 2016,
+      "host": "USENIX Security",
+      "speaker": "Eleftherios Kokoris-Kogias",
+      "url": "https://www.youtube.com/watch?v=Q3V4ZXks0Vk",
+      "evidenceUrl": "https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/kogias",
+      "summary": "The ByzCoin work on scalable collective signing and strongly consistent transaction confirmation.",
+      "verification": "The official USENIX recording at about 0:21 shows the title slide with Lefteris Kokoris-Kogias alone emphasized in bold among the authors and the @LefKok presenter handle. Official USENIX slides repeat that handle and end with his personal EPFL contact details; the conference page embeds this exact recording.",
+      "speakerEvidence": {
+        "evidenceType": "recording-credit",
+        "evidenceUrl": "https://www.youtube.com/watch?v=Q3V4ZXks0Vk",
+        "checkedAt": "2026-10-26"
+      }
+    }
+  ],
+  "additionalTalks": [],
+  "writing": [
+    {
+      "title": "Lutris: Safe Composition of Broadcast and Consensus",
+      "date": "2026-05-20",
+      "publisher": "Decentralized Thoughts",
+      "authors": [
+        "Lefteris Kokoris Kogias",
+        "Alberto Sonnino"
+      ],
+      "url": "https://decentralizedthoughts.github.io/2026-05-20-sui-lutris/",
+      "summary": "How Sui combines broadcast and consensus while preserving safety and reconfiguration.",
+      "verification": "Authorship and date verified on the original article."
+    },
+    {
+      "title": "Mysticeti: Revolutionizing Consensus on Sui",
+      "date": "2026-03-06",
+      "publisher": "Decentralized Thoughts",
+      "authors": [
+        "Lefteris Kokoris Kogias",
+        "Alberto Sonnino",
+        "George Danezis"
+      ],
+      "url": "https://decentralizedthoughts.github.io/2026-03-06-mysticeti-revolutionizing-consensus-on-sui/",
+      "summary": "The design behind lower latency and CPU costs in Sui's production consensus.",
+      "result": "Reports 80% latency reduction, from approximately 1.9 seconds to 400 ms, and 40% consensus CPU reduction.",
+      "verification": "Authorship, date, and reported results verified on original article."
+    },
+    {
+      "title": "Mysticeti v2: Faster and Lighter Sui Transaction Processing",
+      "date": "2025-11-06",
+      "publisher": "Sui",
+      "authors": [
+        "Tasos Kichidis",
+        "Lefteris Kokoris-Kogias",
+        "Arun Koshy",
+        "Maxwell Tian"
+      ],
+      "url": "https://www.sui.io/blog/mysticeti-v2-sui-consensus",
+      "summary": "Integrating transaction validation into consensus and simplifying transaction submission.",
+      "verification": "Explicit author byline and date verified on the original Sui blog."
+    },
+    {
+      "title": "Understanding Blockchain Latency and Throughput",
+      "date": "2022-07-11",
+      "publisher": "Paradigm",
+      "authors": [
+        "Lefteris Kokoris-Kogias"
+      ],
+      "url": "https://www.paradigm.xyz/writing/consensus-throughput",
+      "summary": "A practical framework for measuring blockchain performance and avoiding misleading benchmarks.",
+      "verification": "Author and date verified on Paradigm; old URL /2022/07/consensus-throughput redirects here."
+    },
+    {
+      "title": "Scaling Blockchains With Hierarchical Consensus",
+      "date": "2022-03-03",
+      "publisher": "Protocol Labs Research",
+      "authors": [
+        "Alfonso de la Rocha",
+        "Lefteris Kokoris-Kogias",
+        "Jorge M. Soares",
+        "Marko Vukolić"
+      ],
+      "url": "https://research.protocol.ai/blog/2022/scaling-blockchains-with-hierarchical-consensus/",
+      "summary": "A route to horizontal blockchain scaling through hierarchical consensus.",
+      "verification": "Author byline and date verified on original article."
+    }
+  ],
+  "talkGroups": [
+    {
+      "id": "walrus",
+      "title": "Walrus: An Efficient Decentralized Storage Network"
+    },
+    {
+      "id": "modular-consensus",
+      "title": "Building Practical and Modular Consensus with DAGs"
+    },
+    {
+      "id": "adkg",
+      "title": "Asynchronous Distributed Key Generation"
+    },
+    {
+      "id": "brick",
+      "title": "Brick: Asynchronous Payment Channels"
+    },
+    {
+      "id": "omniledger",
+      "title": "OmniLedger: A Secure, Scale-Out, Decentralized Ledger via Sharding"
+    },
+    {
+      "id": "scalable-ledgers",
+      "title": "Scalable and Efficient Distributed Ledgers"
+    }
+  ]
+}
