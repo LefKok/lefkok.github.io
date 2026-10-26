@@ -76,11 +76,11 @@ const mentorshipHTML = mentorship.groups.map(group => {
   }).join('\n')}</ul></section>`;
 }).join('\n');
 const mentorshipGraph = {'@context':'https://schema.org','@graph':[
-  {'@type':'CollectionPage',url:mentorshipURL,name:`Mentorship · ${profile.name}`,about:{'@id':personId},mainEntity:{'@type':'ItemList',numberOfItems:mentorship.people.length,itemListElement:mentorship.people.map((p,i)=>({'@type':'ListItem',position:i+1,item:{'@type':'Person',name:p.name,...(p.url?{url:p.url}:{}),description:`${p.role}${p.period?' ('+p.period+')':''}, research mentorship with ${profile.name}.`}}))}},person
+  {'@type':'CollectionPage',url:mentorshipURL,name:`Mentorship · ${profile.name}`,about:{'@id':personId},mainEntity:{'@type':'ItemList',numberOfItems:mentorship.people.length,itemListElement:mentorship.people.map((p,i)=>({'@type':'ListItem',position:i+1,item:{'@type':'Person',name:p.name,...(p.url?{url:p.url}:{}),description:`${p.role}${p.period?' ('+p.period+')':''}${p.context?'; '+p.context:''}, research mentorship with ${profile.name}.`}}))}},person
 ]};
 await writeFile(path.join(root,'dist/mentorship/index.html'),(await readFile(path.join(root,'src/mentorship/index.html'),'utf8')).replace('@@MENTORSHIP@@',mentorshipHTML).replace('@@MENTORSHIP_SCHEMA@@',JSON.stringify(mentorshipGraph).replaceAll('<','\\u003c')));
 await writeFile(path.join(root,'dist/mentorship.json'),JSON.stringify(mentorship,null,2)+'\n');
-await writeFile(path.join(root,'dist/mentorship/index.md'),`# Mentorship · ${profile.name}\n\n${mentorship.groups.map(group=>`## ${group.title}\n\n${mentorship.people.filter(p=>p.group===group.id).map(p=>`### ${p.name}\n\n${p.role}${p.period?' · '+p.period:''}.\n\n${sharedPapers(p).map(paper=>`- [${paper.title}](${paper.url}), ${paper.venue || 'Preprint'} ${paper.year}.`).join('\n')}`).join('\n\n')}`).join('\n\n')}\n`);
+await writeFile(path.join(root,'dist/mentorship/index.md'),`# Mentorship · ${profile.name}\n\n${mentorship.groups.map(group=>`## ${group.title}\n\n${mentorship.people.filter(p=>p.group===group.id).map(p=>`### ${p.name}\n\n${p.role}${p.period?' · '+p.period:''}.${p.context?' '+p.context+'.':''}\n\n${sharedPapers(p).map(paper=>`- [${paper.title}](${paper.url}), ${paper.venue || 'Preprint'} ${paper.year}.`).join('\n')}`).join('\n\n')}`).join('\n\n')}\n`);
 await cp(path.join(root, 'lefteris.jpg'), path.join(root, 'dist/lefteris.jpg'));
 await writeFile(path.join(root, 'dist/profile.json'), JSON.stringify(profile, null, 2) + '\n');
 await writeFile(path.join(root, 'dist/research.json'), JSON.stringify(papers, null, 2) + '\n');
