@@ -17,7 +17,7 @@ The static site is generated in `dist/`. The preview serves at `http://127.0.0.1
 ## Content
 
 - `content/profile.json`: role, biography, expertise, and evidence links.
-- `content/scholar.json`: verified Google Scholar statistics and their update date. Update this record from the linked Scholar profile, then rebuild; the site displays a dated snapshot.
+- `content/scholar.json`: verified Google Scholar statistics and their update date. The deployment workflow refreshes these daily and on each deployment, then saves successful updates to the repository. Run `npm run update:scholar` for a manual refresh. If Google blocks the request or changes the response format, the previous figures and verification date are preserved.
 - `content/awards.json`: complete awards and honors, sources, and homepage selections. The build includes this record in profile metadata and the `/awards/` subpage.
 - `content/publications.json`: research archive, selected entries, and venue/award sources.
 - `content/mentorship.json`: students and interns, mentorship sources, and shared publication IDs or preprints. Builds the `/mentorship/` subpage.
@@ -32,6 +32,8 @@ The build also produces `profile.json`, `research.json`, `media.json`, `llms.txt
 ## Deployment
 
 Pushing to `master` runs `.github/workflows/pages.yml`, which builds and checks the website with Node.js 24, then deploys `dist/` to GitHub Pages at <https://lefkok.github.io/>. The workflow can also be run manually from GitHub Actions. GitHub Pages uses **GitHub Actions** as its publishing source. The original Jekyll files remain in the repository for reference and are not included in the deployed site.
+
+The same workflow runs daily at 06:17 UTC to refresh Google Scholar statistics. It requests the public author profile once per run, validates all six metrics, and publishes the updated HTML and machine-readable data. No visitor-side request or Google login is needed. Refresh failures are reported in the workflow log without clearing the last verified statistics.
 
 ## Sources and editorial choices
 

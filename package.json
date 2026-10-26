@@ -5,6 +5,8 @@
   "scripts": {
     "build": "node scripts/build.mjs",
     "check": "node scripts/check.mjs",
+    "update:scholar": "node scripts/update-scholar.mjs",
+    "test:scholar": "node --test scripts/update-scholar.test.mjs",
     "dev": "node scripts/serve.mjs"
   }
 }
