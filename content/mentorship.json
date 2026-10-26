@@ -55,6 +55,18 @@
       "paperIds": [
         "hammerhead-leader-reputation-for-dynamic-scheduling"
       ],
+      "additionalPapers": [
+        {
+          "id": "bluebottle",
+          "label": "BlueBottle",
+          "title": "BlueBottle: Fast and Robust Blockchains through Subsystem Specialization",
+          "url": "https://arxiv.org/abs/2511.15361",
+          "type": "Preprint",
+          "year": 2025,
+          "authors": "Preston Vander Vos, Alberto Sonnino, Giorgos Tsimos, Philipp Jovanovic, Lefteris Kokoris-Kogias",
+          "evidenceUrl": "https://arxiv.org/abs/2511.15361"
+        }
+      ],
       "sources": [
         {
           "url": "https://georgetsimos.github.io/",
@@ -185,6 +197,7 @@
     {
       "id": "fatima-elsheimy",
       "name": "Fatima Elsheimy",
+      "privateResearch": true,
       "group": "mysten",
       "role": "Research intern",
       "url": null,
@@ -206,6 +219,7 @@
     {
       "id": "dakai-kang",
       "name": "Dakai Kang",
+      "privateResearch": true,
       "group": "mysten",
       "role": "Research intern",
       "url": null,
@@ -232,6 +246,16 @@
       "url": "https://jtingzhang.github.io/",
       "paperIds": [],
       "additionalPapers": [
+        {
+          "id": "pufferfish",
+          "label": "Pufferfish",
+          "title": "Masking Ordering Failures in BFT SMR via DAG-based Proactive Pre-Commit Execution",
+          "url": "https://eprint.iacr.org/2026/796",
+          "type": "Preprint",
+          "year": 2026,
+          "authors": "Jianting Zhang, Alberto Sonnino, Lefteris Kokoris-Kogias, Aniket Kate",
+          "evidenceUrl": "https://eprint.iacr.org/2026/796"
+        },
         {
           "id": "beluga",
           "label": "Beluga",
