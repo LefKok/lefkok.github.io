@@ -17,6 +17,7 @@ The static site is generated in `dist/`. The preview serves at `http://127.0.0.1
 ## Content
 
 - `content/profile.json`: role, biography, expertise, and evidence links.
+- `content/scholar.json`: verified Google Scholar statistics and their update date. Update this record from the linked Scholar profile, then rebuild; the site displays a dated snapshot.
 - `content/awards.json`: complete awards and honors, sources, and homepage selections. The build includes this record in profile metadata and the `/awards/` subpage.
 - `content/publications.json`: research archive, selected entries, and venue/award sources.
 - `content/mentorship.json`: students and interns, mentorship sources, and shared publication IDs or preprints. Builds the `/mentorship/` subpage.
