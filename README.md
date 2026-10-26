@@ -26,7 +26,11 @@ The static site is generated in `dist/`. The preview serves at `http://127.0.0.1
 
 Rebuild after changing content. All research entries are rendered in the HTML before JavaScript runs. Search and filtering are progressive enhancements.
 
-The build also produces `profile.json`, `research.json`, `media.json`, `llms.txt`, a Markdown version of the page, `robots.txt`, a sitemap, and linked Person/ProfilePage/ScholarlyArticle metadata. The canonical domain is `https://lefkok.github.io/`. A private review copy cannot be indexed publicly; deploy `dist/` to the public domain when launching the redesign. No automatic GitHub deployment is configured by this change.
+The build also produces `profile.json`, `research.json`, `media.json`, `llms.txt`, a Markdown version of the page, `robots.txt`, a sitemap, and linked Person/ProfilePage/ScholarlyArticle metadata. The canonical domain is `https://lefkok.github.io/`.
+
+## Deployment
+
+Pushing to `master` runs `.github/workflows/pages.yml`, which builds and checks the website with Node.js 24, then deploys `dist/` to GitHub Pages at <https://lefkok.github.io/>. The workflow can also be run manually from GitHub Actions. GitHub Pages uses **GitHub Actions** as its publishing source. The original Jekyll files remain in the repository for reference and are not included in the deployed site.
 
 ## Sources and editorial choices
 
