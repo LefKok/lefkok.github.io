@@ -17,7 +17,7 @@ The static site is generated in `dist/`. The preview serves at `http://127.0.0.1
 ## Content
 
 - `content/profile.json`: role, biography, expertise, and evidence links.
-- `content/scholar.json`: verified Google Scholar statistics and their update date. The deployment workflow refreshes these daily and on each deployment, then saves successful updates to the repository. Run `npm run update:scholar` for a manual refresh. If Google blocks the request or changes the response format, the previous figures and verification date are preserved.
+- `content/scholar.json`: verified Google Scholar statistics and their update date. The deployment workflow refreshes these daily and on each deployment, then saves successful updates to the repository. Includes a dated citation count for OmniLedger, refreshed from the same profile response. Run `npm run update:scholar` for a manual refresh. If Google blocks the request or changes the response format, the previous figures and verification date are preserved.
 - `content/awards.json`: complete awards and honors, sources, and homepage selections. The build includes this record in profile metadata and the `/awards/` subpage.
 - `content/publications.json`: research archive, selected entries, and venue/award sources.
 - `content/mentorship.json`: students and interns, mentorship sources, and shared publication IDs or preprints. Builds the `/mentorship/` subpage.

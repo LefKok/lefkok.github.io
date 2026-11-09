@@ -13,5 +13,14 @@
     "citations": 7301,
     "hIndex": 31,
     "i10Index": 48
-  }
+  },
+  "papers": [
+    {
+      "id": "omniledger-a-secure-scale-out-decentralized-ledger-via-sharding",
+      "title": "OmniLedger: A Secure, Scale-Out, Decentralized Ledger via Sharding",
+      "citations": 1964,
+      "sourceUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7TOIlqkAAAAJ&citation_for_view=7TOIlqkAAAAJ:7wO8s98CvbsC",
+      "updatedAt": "2026-11-09"
+    }
+  ]
 }

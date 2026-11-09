@@ -11,13 +11,18 @@ const awards = await readJSON('awards.json');
 const mentorship = await readJSON('mentorship.json');
 const scholar = await readJSON('scholar.json');
 profile.scholarMetrics = scholar;
+for (const metric of scholar.papers || []) {
+  const paper = papers.find(p => p.id === metric.id);
+  if (!paper) throw new Error(`Unknown Scholar publication: ${metric.id}`);
+  paper.citationMetrics = metric;
+}
 profile.awards = awards.map(a => `${a.title}, ${a.organization}${a.detail ? ', ' + a.detail : ''}${a.year ? ', ' + a.year : ''}`);
 const base = profile.url;
 const esc = value => String(value ?? '').replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;').replaceAll("'", '&#39;');
 const authors = text => esc(text).replace(/(?:Eleftherios|Lefteris) Kokoris-Kogias\*?/g, '<strong>$&</strong>');
 const paperHTML = papers.map((p, i) => `<article class="publication" id="paper-${p.id}" data-selected="${Boolean(p.selected)}" data-year="${p.year}">
   <div class="paper-venue ${p.year === 2026 ? 'latest' : ''}">${esc(p.venue)}<span>${p.year}</span></div>
-  <div class="paper-main"><h3><a href="${esc(p.url || p.venueUrl)}">${esc(p.title)}</a></h3><p class="paper-authors">${authors(p.authors)}</p>${p.authorNote ? `<p class="paper-author-note">${esc(p.authorNote)}</p>` : ""}${p.recognition ? `<a class="paper-note" href="${esc(p.evidenceUrl || p.url)}">✧ ${esc(p.recognition)}</a>` : ''}${p.presentation ? `<span class="paper-note paper-presentation">Presented at SBC · Research presentation</span>` : ''}${p.impact?.length ? `<div class="paper-impact">${p.impact.map(note=>note.url ? `<a href="${esc(note.url)}">${esc(note.title)}</a>` : `<span>${esc(note.title)}</span>`).join('')}</div>` : ''}</div>
+  <div class="paper-main"><h3><a href="${esc(p.url || p.venueUrl)}">${esc(p.title)}</a></h3><p class="paper-authors">${authors(p.authors)}</p>${p.authorNote ? `<p class="paper-author-note">${esc(p.authorNote)}</p>` : ""}${p.citationMetrics ? `<p class="paper-citations"><a href="${esc(p.citationMetrics.sourceUrl)}">${p.citationMetrics.citations.toLocaleString('en-US')} citations · Google Scholar</a><span> · Updated ${esc(p.citationMetrics.updatedAt)}</span></p>` : ""}${p.recognition ? `<a class="paper-note" href="${esc(p.evidenceUrl || p.url)}">✧ ${esc(p.recognition)}</a>` : ''}${p.presentation ? `<span class="paper-note paper-presentation">Presented at SBC · Research presentation</span>` : ''}${p.impact?.length ? `<div class="paper-impact">${p.impact.map(note=>note.url ? `<a href="${esc(note.url)}">${esc(note.title)}</a>` : `<span>${esc(note.title)}</span>`).join('')}</div>` : ''}</div>
   <a class="paper-arrow" href="${esc(p.url || p.venueUrl)}" aria-label="Read ${esc(p.title)}">↗</a></article>`).join('\n');
 const writingHTML = media.writing.map(w => `<a class="writing-item" href="${esc(w.url)}"><span class="writing-year">${esc(w.date.slice(0,4))}</span><h4>${esc(w.title)}</h4><span class="writing-outlet">${esc(w.publisher)}</span><span class="writing-arrow" aria-hidden="true">↗</span></a>`).join('\n');
 const allTalks = [...media.talks, ...media.additionalTalks].sort((a,b)=> (b.date || String(b.year || '')).localeCompare(a.date || String(a.year || '')));

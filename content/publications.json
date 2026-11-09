@@ -93,7 +93,7 @@
     "year": 2025,
     "venue": "SRDS",
     "url": "https://arxiv.org/abs/2302.02325",
-    "venueUrl": "https://www.srds-conference.org/",
+    "venueUrl": "https://srds-conference.org/2025/index.html",
     "impact": [],
     "id": "securing-consensus-from-long-range-attacks-through-collaboration",
     "selected": false
@@ -207,7 +207,7 @@
     "year": 2024,
     "venue": "ASIACCS",
     "url": "https://netsec.ethz.ch/publications/papers/Consensus_DDoS_AsiaCCS_24.pdf",
-    "venueUrl": "https://asiaccs2024.sutd.edu.sg/",
+    "venueUrl": "https://dl.acm.org/doi/proceedings/10.1145/3634737",
     "impact": [],
     "id": "an-empirical-study-of-consensus-protocols-dos-resilience",
     "selected": false
@@ -278,7 +278,7 @@
     "authors": "Donald Beaver, Kostas Chalkia, Mahimna Kelkar, Eleftherios Kokoris-Kogias, Kevin Lewi, Ladi de Naurois, Valeria Nikolaenko, Arnab Roy, Alberto Sonnino",
     "year": 2023,
     "venue": "AFT",
-    "url": "https://eprint.iacr.org/2021/1643",
+    "url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2023.7",
     "venueUrl": "https://aftconf.github.io/aft23/index.html",
     "impact": [],
     "id": "strobe-streaming-threshold-random-beacons",
@@ -325,7 +325,7 @@
       },
       {
         "title": "Used by Sommelier",
-        "url": "https://sommelier.finance/blog/sommelier-partners-with-mysten-labs-to-make-sommelier-and-all-cosmos-blockchains-the-fastest-protocols-on-the-planet"
+        "url": "https://www.prnewswire.com/news-releases/sommelier-partners-with-mysten-labs-to-make-the-cosmos-blockchain-the-fastest-on-the-planet-301381122.html"
       },
       {
         "title": "Used by Sui",
@@ -333,7 +333,7 @@
       },
       {
         "title": "Used by Aptos",
-        "url": "https://github.com/aptos-foundation/AIPs/blob/main/aips/aip-26.md"
+        "url": "https://github.com/aptos-foundation/AIPs/blob/main/aips/aip-026-quorum-store.md"
       }
     ],
     "id": "narwhal-and-tusk-a-dag-based-mempool-and-efficient-bft-consensus",
@@ -374,7 +374,7 @@
     "authors": "Shir Cohen, Rati Gelashvili, Eleftherios Kokoris-Kogias, Zekun Li, Dahlia Malkhi, Alberto Sonnino, Alexander Spiegelman",
     "year": 2022,
     "venue": "FC",
-    "url": "https://sonnino.com/papers/leader-reputation.pdf",
+    "url": "https://arxiv.org/abs/2110.00960",
     "venueUrl": "https://fc22.ifca.ai/",
     "impact": [
       {
@@ -424,7 +424,7 @@
       },
       {
         "title": "Used by SunBioscience",
-        "url": "https://sunbioscience.ch"
+        "url": "https://c4dt.epfl.ch/article/omniledger-2/"
       }
     ],
     "id": "calypso-private-data-management-for-decentralized-ledgers",
@@ -481,7 +481,7 @@
     "year": 2018,
     "venue": "ESORICS",
     "url": "https://link.springer.com/chapter/10.1007/978-3-319-99073-6_6",
-    "venueUrl": "https://esorics2018.upc.edu/",
+    "venueUrl": "https://link.springer.com/book/10.1007/978-3-319-99073-6",
     "impact": [
       {
         "title": "Deployed in Hyperledger Fabric",
@@ -577,7 +577,7 @@
     "year": 2016,
     "venue": "ETFA",
     "url": "https://ieeexplore.ieee.org/abstract/document/7733612",
-    "venueUrl": "https://www.etfa2016.org/",
+    "venueUrl": "https://ieeexplore.ieee.org/xpl/conhome/7593665/proceeding",
     "impact": [],
     "id": "trm-siot-a-scalable-hybrid-trust-reputation-model-for-the-social-internet-of-things",
     "selected": false

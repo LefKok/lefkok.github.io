@@ -133,7 +133,7 @@
           "authors": "Ray Neiheiser, Arman Babaei, Giannis Alexopoulos, Marios Kogias, Eleftherios Kokoris Kogias",
           "relatedVersion": {
             "label": "Pythia · SIB 2024",
-            "url": "https://aftsib.com/papers/SIB24_paper_4.pdf"
+            "url": "https://ray-neiheiser.github.io/talks/"
           },
           "note": "Pythia has the same authors and overlapping abstract; avoid double-counting versions as separate outcomes without user confirmation."
         },
@@ -177,7 +177,7 @@
           "authors": "Ray Neiheiser, Arman Babaei, Giannis Alexopoulos, Marios Kogias, Eleftherios Kokoris Kogias",
           "relatedVersion": {
             "label": "Pythia · SIB 2024",
-            "url": "https://aftsib.com/papers/SIB24_paper_4.pdf"
+            "url": "https://ray-neiheiser.github.io/talks/"
           },
           "note": "Pythia has the same authors and overlapping abstract; avoid double-counting versions as separate outcomes without user confirmation."
         }
@@ -596,15 +596,15 @@
           "authors": "Ray Neiheiser, Arman Babaei, Giannis Alexopoulos, Marios Kogias, Eleftherios Kokoris Kogias",
           "relatedVersion": {
             "label": "Pythia · SIB 2024",
-            "url": "https://aftsib.com/papers/SIB24_paper_4.pdf"
+            "url": "https://ray-neiheiser.github.io/talks/"
           },
           "note": "Pythia has the same authors and overlapping abstract; avoid double-counting versions as separate outcomes without user confirmation."
         }
       ],
       "sources": [
         {
-          "url": "https://aftsib.com/papers/SIB24_paper_4.pdf",
-          "finding": "The author-submitted Pythia paper lists Arman’s ISTA affiliation and joint authorship with Lefteris. No direct public mentorship statement found."
+          "url": "https://arxiv.org/abs/2401.14278",
+          "finding": "CHIRON lists Arman and Lefteris as coauthors. Mentorship was confirmed directly by Lefteris."
         }
       ],
       "confirmation": {

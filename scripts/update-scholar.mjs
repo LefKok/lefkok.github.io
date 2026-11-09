@@ -6,6 +6,18 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const text = html => html.replace(/<[^>]*>/g, ' ').replace(/&nbsp;|&#160;|&#xA0;/gi, ' ').replace(/\s+/g, ' ').trim();
 const metricKeys = [['Citations', 'citations'], ['h-index', 'hIndex'], ['i10-index', 'i10Index']];
 
+export function parseScholarPaper(html, title) {
+  const normalize = value => text(value).toLowerCase();
+  const rows = [...html.matchAll(/<tr\b[^>]*\bclass=["'][^"']*\bgsc_a_tr\b[^"']*["'][^>]*>([\s\S]*?)<\/tr>/gi)];
+  const matches = rows.filter(([, row]) => normalize(row.match(/<a\b[^>]*\bclass=["'][^"']*\bgsc_a_at\b[^"']*["'][^>]*>([\s\S]*?)<\/a>/i)?.[1] || '') === normalize(title));
+  if (matches.length !== 1) throw new Error('Paper citation row is missing or ambiguous');
+  const count = text(matches[0][1].match(/<a\b[^>]*\bclass=["'][^"']*\bgsc_a_ac\b[^"']*["'][^>]*>([\s\S]*?)<\/a>/i)?.[1] || '');
+  if (!/^\d[\d,]*$/.test(count)) throw new Error('Invalid paper citation count');
+  const citations = Number(count.replaceAll(',', ''));
+  if (!Number.isSafeInteger(citations)) throw new Error('Invalid paper citation count');
+  return citations;
+}
+
 export function parseScholar(html, year = new Date().getUTCFullYear()) {
   const table = html.match(/<table\b[^>]*\bid=["']gsc_rsb_st["'][^>]*>([\s\S]*?)<\/table>/i)?.[1];
   if (!table) throw new Error('Scholar statistics table is missing');
@@ -48,8 +60,17 @@ export async function refreshScholar({
       signal: AbortSignal.timeout(20000)
     });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    const metrics = parseScholar(await response.text(), now.getUTCFullYear());
+    const html = await response.text();
+    const metrics = parseScholar(html, now.getUTCFullYear());
     const updated = { ...current, updatedAt: now.toISOString().slice(0, 10), ...metrics };
+    if (current.papers) updated.papers = current.papers.map(paper => {
+      try {
+        return { ...paper, citations: parseScholarPaper(html, paper.title), updatedAt: updated.updatedAt };
+      } catch (error) {
+        console.warn(`Keeping ${paper.title} citations verified ${paper.updatedAt}: ${error.message}.`);
+        return paper;
+      }
+    });
     const serialized = JSON.stringify(updated, null, 2) + '\n';
     if (serialized !== await readFile(recordPath, 'utf8')) {
       await writeFile(recordPath + '.tmp', serialized);
