@@ -493,11 +493,11 @@
     "authorNote": "Authors listed alphabetically"
   },
   {
-    "title": "Omniledger: A secure, scale-out, decentralized ledger via sharding",
+    "title": "OmniLedger: A Secure, Scale-Out, Decentralized Ledger via Sharding",
     "authors": "Eleftherios Kokoris-Kogias, Philipp Jovanovic, Linus Gasser, Nicolas Gailly, Ewa Syta, Bryan Ford",
     "year": 2018,
     "venue": "IEEE S&P",
-    "url": "https://csdl.computer.org/csdl/proceedings/sp/2018/4353/00/435301a583-abs.html",
+    "url": "https://bford.info/pub/dec/omniledger.pdf",
     "venueUrl": "https://www.ieee-security.org/TC/SP2018/",
     "impact": [
       {
