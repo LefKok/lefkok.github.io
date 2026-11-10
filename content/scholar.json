@@ -2,15 +2,15 @@
   "source": "Google Scholar",
   "sourceUrl": "https://scholar.google.com/citations?user=7TOIlqkAAAAJ&hl=en",
   "profileId": "7TOIlqkAAAAJ",
-  "updatedAt": "2026-11-09",
+  "updatedAt": "2026-11-10",
   "allTime": {
-    "citations": 8862,
+    "citations": 8881,
     "hIndex": 32,
     "i10Index": 49
   },
   "recent": {
     "since": 2021,
-    "citations": 7301,
+    "citations": 7318,
     "hIndex": 31,
     "i10Index": 48
   },
@@ -18,9 +18,9 @@
     {
       "id": "omniledger-a-secure-scale-out-decentralized-ledger-via-sharding",
       "title": "OmniLedger: A Secure, Scale-Out, Decentralized Ledger via Sharding",
-      "citations": 1964,
+      "citations": 1965,
       "sourceUrl": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7TOIlqkAAAAJ&citation_for_view=7TOIlqkAAAAJ:7wO8s98CvbsC",
-      "updatedAt": "2026-11-09"
+      "updatedAt": "2026-11-10"
     }
   ]
 }
