@@ -219,9 +219,14 @@
     "venue": "SOSP",
     "url": "https://bford.info/pub/os/quepaxa/quepaxa.pdf",
     "venueUrl": "https://sosp2023.mpi-sws.org/",
-    "impact": [],
+    "impact": [
+      {
+        "title": "Powers Cloudflare’s experimental Meerkat consensus service",
+        "url": "https://blog.cloudflare.com/choosing-quepaxa/"
+      }
+    ],
     "id": "quepaxa-escaping-the-tyranny-of-timeouts-in-consensus",
-    "selected": false
+    "selected": true
   },
   {
     "title": "Practical Asynchronous High-threshold Distributed Key Generation and Distributed Polynomial Sampling",
